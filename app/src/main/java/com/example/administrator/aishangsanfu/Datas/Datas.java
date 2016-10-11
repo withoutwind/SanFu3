@@ -8,141 +8,148 @@ import java.util.List;
 
 public class Datas {
 
+
     /**
-     * success : true
-     * msg : {"index":[{"cname":"","id":302,"in_use":1,"list":[{"goods":null,"id":259552,"img":"http://img.sanfu.com/img/template/201610092112245244.jpg","in_use":1,"list":[],"module_id":302,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"277"}],"serial":1,"template_id":101},{"cname":"","id":303,"in_use":1,"list":[{"goods":null,"id":259151,"img":"http://img.sanfu.com/img/template/201608201059308907.jpg","in_use":1,"list":[],"module_id":303,"rurl":"/html/c/sort.html","serial":1,"title":"","type_key":4,"type_value":"boyClass"},{"goods":null,"id":259152,"img":"http://img.sanfu.com/img/template/201608201059430849.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/html/custom/custom.html"},{"goods":null,"id":259153,"img":"http://img.sanfu.com/img/template/201608201059568373.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=1"},{"goods":null,"id":259154,"img":"http://img.sanfu.com/img/template/201608201100051839.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"}],"serial":1,"template_id":101},{"cname":"","id":304,"in_use":1,"list":[{"goods":null,"id":259155,"img":"http://img.sanfu.com/img/template/201610101858275545.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":null,"id":259156,"img":"http://img.sanfu.com/img/template/201610101858462401.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"},{"goods":null,"id":259157,"img":"http://img.sanfu.com/img/template/201610101859115391.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"72"},{"goods":null,"id":259158,"img":"http://img.sanfu.com/img/template/201610101900027450.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"70"},{"goods":null,"id":259159,"img":"http://img.sanfu.com/img/template/201610101933574254.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=306819&cpp=0"},{"goods":null,"id":259160,"img":"http://img.sanfu.com/img/template/201610101934076674.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":null,"id":259161,"img":"http://img.sanfu.com/img/template/201610101934152444.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"165"},{"goods":null,"id":259162,"img":"http://img.sanfu.com/img/template/201610101934241382.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"163"}],"serial":1,"template_id":101},{"cname":"","id":305,"in_use":1,"list":[{"goods":null,"id":259163,"img":"http://img.sanfu.com/img/template/201609231459563778.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/showRush.htm"},{"goods":null,"id":259164,"img":"http://img.sanfu.com/img/template/201609231500160107.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":null,"id":259165,"img":"http://img.sanfu.com/img/template/201609021133000706.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"241187"}],"serial":1,"template_id":101},{"cname":"","id":306,"in_use":1,"list":[{"goods":null,"id":259308,"img":"http://img.sanfu.com/img/template/201607211844333240.jpg","in_use":1,"list":[],"module_id":306,"rurl":"/self/showGift.htm","serial":1,"title":"","type_key":4,"type_value":"showGift"},{"goods":{"addtime":259,"addtimeStr":"1970-01-01 08:04:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋满版迷彩运动夹克 撞色双面可穿外套","goods_sn":"361226","goods_type":5,"id":1374784,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361226,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201609011728237675.jpg","m_goods_id":0,"mb_price":259,"model":"TZ-8087双面迷彩","num":25,"number":25,"pattern":"233.1","pf_price":259,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011725039356.jpg","sc_price":259,"search_words":"","season":"","shelf_time":1472783445,"shelf_timeStr":"2016-09-02 10:30:45","smallpic":"","sort_id":75,"start_time":259,"start_timeStr":"1970-01-01 08:04:19"},"id":259171,"img":"http://img.sanfu.com/img/goods/list/201609011728237675.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":2,"title":"","type_key":2,"type_value":"361226"},{"goods":{"addtime":339,"addtimeStr":"1970-01-01 08:05:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":86,"goods_name":"三福2016男秋满版迷彩后背刺绣外套 中长款风衣","goods_sn":"753884","goods_type":5,"id":1094752,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"753884,SANFU,男装,上装,时尚,外套,棉料","l_img":"http://img.sanfu.com/img/goods/list/201608041522195826.jpg","m_goods_id":0,"mb_price":339,"model":"MD-9665图案迷彩","num":20,"number":20,"pattern":"305.1","pf_price":339,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608041521347070.jpg","sc_price":339,"search_words":"","season":"","shelf_time":1470362095,"shelf_timeStr":"2016-08-05 09:54:55","smallpic":"","sort_id":75,"start_time":339,"start_timeStr":"1970-01-01 08:05:39"},"id":259172,"img":"http://img.sanfu.com/img/goods/list/201608041522195826.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":3,"title":"","type_key":2,"type_value":"753884"},{"goods":{"addtime":179,"addtimeStr":"1970-01-01 08:02:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋迷彩拼接后背字母印花外套 百搭运动衣","goods_sn":"360432","goods_type":5,"id":1054719,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360432,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201607290945565442.jpg","m_goods_id":0,"mb_price":179,"model":"CC-6326278迷彩拼接","num":68,"number":68,"pattern":"161.1","pf_price":179,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607290944579664.jpg","sc_price":179,"search_words":"","season":"","shelf_time":1470016206,"shelf_timeStr":"2016-08-01 09:50:06","smallpic":"","sort_id":75,"start_time":179,"start_timeStr":"1970-01-01 08:02:59"},"id":259168,"img":"http://img.sanfu.com/img/goods/list/201607290945565442.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":4,"title":"","type_key":2,"type_value":"360432"},{"goods":{"addtime":299,"addtimeStr":"1970-01-01 08:04:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":85,"goods_name":"三福2016男秋韩版翻领修身西装外套 净色商务西服","goods_sn":"361091","goods_type":5,"id":1234779,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361091,SATTACHERA,男装,上装,经典,西装,棉","l_img":"http://img.sanfu.com/img/goods/list/201609011620028572.jpg","m_goods_id":0,"mb_price":299,"model":"CH 6655磨毛","num":33,"number":33,"pattern":"269.1","pf_price":299,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011629231098.jpg","sc_price":299,"search_words":"","season":"","shelf_time":1472718585,"shelf_timeStr":"2016-09-01 16:29:45","smallpic":"","sort_id":75,"start_time":299,"start_timeStr":"1970-01-01 08:04:59"},"id":259167,"img":"http://img.sanfu.com/img/goods/list/201609011620028572.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":5,"title":"","type_key":2,"type_value":"361091"},{"goods":{"addtime":229,"addtimeStr":"1970-01-01 08:03:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋立领净色机车PU夹克 休闲百搭修身外套","goods_sn":"753925","goods_type":5,"id":874730,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"753925,SATTACHERA,男装,上装,经典,外套,仿皮","l_img":"http://img.sanfu.com/img/goods/list/201607231457235029.jpg","m_goods_id":0,"mb_price":229,"model":"PS-MD-01皮衣","num":53,"number":53,"pattern":"206.1","pf_price":229,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231456409747.jpg","sc_price":229,"search_words":"","season":"","shelf_time":1470016211,"shelf_timeStr":"2016-08-01 09:50:11","smallpic":"","sort_id":75,"start_time":229,"start_timeStr":"1970-01-01 08:03:49"},"id":259170,"img":"http://img.sanfu.com/img/goods/list/201607231457235029.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":6,"title":"","type_key":2,"type_value":"753925"},{"goods":{"addtime":279,"addtimeStr":"1970-01-01 08:04:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋净色翻盖口袋棒球夹克 飞行员外套","goods_sn":"754189","goods_type":5,"id":1214730,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754189,SANFU,男装,上装,时尚,外套,麂皮绒布","l_img":"http://img.sanfu.com/img/goods/list/201608161738158181.jpg","m_goods_id":0,"mb_price":279,"model":"DD-1062大口袋","num":21,"number":21,"pattern":"251.1","pf_price":279,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608161737170552.jpg","sc_price":279,"search_words":"","season":"","shelf_time":1472694457,"shelf_timeStr":"2016-09-01 09:47:37","smallpic":"","sort_id":75,"start_time":279,"start_timeStr":"1970-01-01 08:04:39"},"id":259169,"img":"http://img.sanfu.com/img/goods/list/201608161738158181.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":7,"title":"","type_key":2,"type_value":"754189"}],"serial":1,"template_id":101},{"cname":"","id":307,"in_use":1,"list":[{"goods":null,"id":259173,"img":"http://img.sanfu.com/img/template/201606061041591176.jpg","in_use":1,"list":[],"module_id":307,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":259310,"img":"http://img.sanfu.com/img/template/201609091117591167.jpg","in_use":1,"list":[],"module_id":307,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"}],"serial":1,"template_id":101},{"cname":"","id":308,"in_use":1,"list":[{"goods":null,"id":259174,"img":"http://img.sanfu.com/img/index_new/index_55.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"http://m.sanfu.com/goods/showmatch.htm"},{"goods":null,"id":259175,"img":"http://img.sanfu.com/img/template/201608231410298020.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/html/custom/custom.html"},{"goods":null,"id":259176,"img":"http://img.sanfu.com/img/template/201609051515083432.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1420264.html"},{"goods":null,"id":259177,"img":"http://img.sanfu.com/img/template/201608251716015805.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1320266.html"},{"goods":null,"id":259178,"img":"http://img.sanfu.com/img/template/201609101517099900.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1520264.html"}],"serial":1,"template_id":101},{"cname":"","id":309,"in_use":1,"list":[{"goods":null,"id":259179,"img":"http://img.sanfu.com/img/template/201610101511149423.jpg","in_use":1,"list":[],"module_id":309,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211643&cpp=0"},{"goods":null,"id":259180,"img":"http://img.sanfu.com/img/template/201609231502086827.jpg","in_use":1,"list":[],"module_id":309,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=306819&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":310,"in_use":1,"list":[{"goods":null,"id":259181,"img":"http://img.sanfu.com/img/template/201608151632376239.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":{"addtime":339,"addtimeStr":"1970-01-01 08:05:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":86,"goods_name":"三福2016男秋满版迷彩翻领外套 双口袋中长款风衣","goods_sn":"361417","goods_type":5,"id":1174721,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361417,SANFU,男装,上装,时尚,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201608111535158677.jpg","m_goods_id":0,"mb_price":339,"model":"YD-3130双袋迷彩","num":25,"number":25,"pattern":"305.1","pf_price":339,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608111534387741.jpg","sc_price":339,"search_words":"","season":"","shelf_time":1470968630,"shelf_timeStr":"2016-08-12 10:23:50","smallpic":"","sort_id":75,"start_time":339,"start_timeStr":"1970-01-01 08:05:39"},"id":259182,"img":"http://img.sanfu.com/img/goods/list/201608111535158677.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361417"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":93,"goods_name":"三福2016男秋撞色交错印花毛衣 圆领套头针织衫","goods_sn":"361220","goods_type":2,"id":1374782,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361220,SATTACHERA,男装,上装,经典,毛衣,仿丝光棉","l_img":"http://img.sanfu.com/img/goods/list/201609011711456192.jpg","m_goods_id":0,"mb_price":139,"model":"LS-SY013交错印花","num":12,"number":12,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011706393624.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1472783435,"shelf_timeStr":"2016-09-02 10:30:35","smallpic":"","sort_id":76,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259183,"img":"http://img.sanfu.com/img/goods/list/201609011711456192.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361220"},{"goods":{"addtime":229,"addtimeStr":"1970-01-01 08:03:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋袖口刺绣后背印花飞行员夹克 棒球外套","goods_sn":"360791","goods_type":5,"id":1054749,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360791,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201607291717074350.jpg","m_goods_id":0,"mb_price":229,"model":"PS-TZ-8075主推款","num":16,"number":16,"pattern":"206.1","pf_price":229,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291716187327.jpg","sc_price":229,"search_words":"","season":"","shelf_time":1470905608,"shelf_timeStr":"2016-08-11 16:53:28","smallpic":"","sort_id":75,"start_time":229,"start_timeStr":"1970-01-01 08:03:49"},"id":259184,"img":"http://img.sanfu.com/img/goods/list/201607291717074350.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360791"},{"goods":{"addtime":109,"addtimeStr":"1970-01-01 08:01:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":93,"goods_name":"三福2016男冬纯色高弹包芯纱毛衣 韩版修身针织衫","goods_sn":"359723","goods_type":5,"id":1614725,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"359723,SANFU,男装,上装,流行,毛衣,包芯纱","l_img":"http://img.sanfu.com/img/goods/list/201609241104177541.jpg","m_goods_id":0,"mb_price":109,"model":"PS-YF-1633高弹包芯纱","num":4,"number":4,"pattern":"98.1","pf_price":109,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609241059153454.jpg","sc_price":109,"search_words":"","season":"","shelf_time":1474686455,"shelf_timeStr":"2016-09-24 11:07:35","smallpic":"","sort_id":76,"start_time":109,"start_timeStr":"1970-01-01 08:01:49"},"id":259185,"img":"http://img.sanfu.com/img/goods/list/201609241104177541.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"359723"},{"goods":{"addtime":119,"addtimeStr":"1970-01-01 08:01:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":81,"goods_name":"三福2016男秋撞色几何色块拼接长袖T恤 圆领套头上衣","goods_sn":"361231","goods_type":5,"id":1234787,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361231,SATTACHERA,男装,上装,经典,T恤,竹节棉","l_img":"http://img.sanfu.com/img/goods/list/201608191133223820.jpg","m_goods_id":0,"mb_price":119,"model":"LS-3530色块拼接","num":10,"number":10,"pattern":"107.1","pf_price":119,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608191129533057.jpg","sc_price":119,"search_words":"","season":"","shelf_time":1472088521,"shelf_timeStr":"2016-08-25 09:28:41","smallpic":"","sort_id":70,"start_time":119,"start_timeStr":"1970-01-01 08:01:59"},"id":259186,"img":"http://img.sanfu.com/img/goods/list/201608191133223820.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361231"},{"goods":null,"id":259187,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"},{"goods":null,"id":259188,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211643&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":311,"in_use":1,"list":[{"goods":null,"id":259189,"img":"http://img.sanfu.com/img/template/201608151632477442.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"883"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男秋原色弹力牛仔裤 简约百搭修身长裤","goods_sn":"360761","goods_type":2,"id":874806,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360761,SANFU,男装,下装,时尚,牛仔裤,棉","l_img":"http://img.sanfu.com/img/goods/list/201607231400184070.jpg","m_goods_id":0,"mb_price":139,"model":"PS-MRB-047弹力牛仔","num":25,"number":25,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231359295899.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1469499421,"shelf_timeStr":"2016-07-26 10:17:01","smallpic":"","sort_id":79,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259190,"img":"http://img.sanfu.com/img/goods/list/201607231400184070.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360761"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男秋抽绳修身小脚牛仔裤 配字母挂件长裤","goods_sn":"360587","goods_type":5,"id":1054731,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360587,SANFU,男装,下装,时尚,牛仔裤,针织牛仔","l_img":"http://img.sanfu.com/img/goods/list/201607291645185033.jpg","m_goods_id":0,"mb_price":139,"model":"DS-7121字母挂件普洗","num":18,"number":18,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291649146439.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1470016205,"shelf_timeStr":"2016-08-01 09:50:05","smallpic":"","sort_id":79,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259191,"img":"http://img.sanfu.com/img/goods/list/201607291645185033.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360587"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":96,"goods_name":"三福2016男秋纯色修身休闲裤 简约百搭长裤","goods_sn":"360751","goods_type":1,"id":874805,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360751,SANFU,男装,下装,时尚,休闲裤,棉","l_img":"http://img.sanfu.com/img/goods/list/201607231350487030.jpg","m_goods_id":0,"mb_price":139,"model":"PS-JH-5752锦棉","num":55,"number":55,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231348210438.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1469499421,"shelf_timeStr":"2016-07-26 10:17:01","smallpic":"","sort_id":78,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259192,"img":"http://img.sanfu.com/img/goods/list/201607231350487030.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360751"},{"goods":{"addtime":179,"addtimeStr":"1970-01-01 08:02:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":96,"goods_name":"三福2016男秋暗绿迷彩长裤 可摘取式织带休闲裤","goods_sn":"360686","goods_type":1,"id":1054738,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360686,SANFU,男装,下装,时尚,休闲裤,洗水棉","l_img":"http://img.sanfu.com/img/goods/list/201607291028545544.jpg","m_goods_id":0,"mb_price":179,"model":"GT-S699暗绿迷彩","num":47,"number":47,"pattern":"161.1","pf_price":179,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291028310794.jpg","sc_price":179,"search_words":"","season":"","shelf_time":1469779149,"shelf_timeStr":"2016-07-29 15:59:09","smallpic":"","sort_id":78,"start_time":179,"start_timeStr":"1970-01-01 08:02:59"},"id":259193,"img":"http://img.sanfu.com/img/goods/list/201607291028545544.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360686"},{"goods":{"addtime":159,"addtimeStr":"1970-01-01 08:02:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男冬修身小脚字母胶印牛仔裤 后袋织带长裤","goods_sn":"362751","goods_type":5,"id":1774713,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362751,SANFU,男装,下装,时尚,牛仔裤,棉氨","l_img":"http://img.sanfu.com/img/goods/list/201609291537506826.jpg","m_goods_id":0,"mb_price":159,"model":"DS-7141后袋字母织带","num":2,"number":2,"pattern":"143.1","pf_price":159,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609291535525086.jpg","sc_price":159,"search_words":"","season":"","shelf_time":1475134989,"shelf_timeStr":"2016-09-29 15:43:09","smallpic":"","sort_id":79,"start_time":159,"start_timeStr":"1970-01-01 08:02:39"},"id":259194,"img":"http://img.sanfu.com/img/goods/list/201609291537506826.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362751"},{"goods":null,"id":259195,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"79"},{"goods":null,"id":259196,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=219226&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":312,"in_use":1,"list":[{"goods":null,"id":259197,"img":"http://img.sanfu.com/img/template/201608151632567138.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":185,"goods_name":"三福2016男秋净色系带低帮板鞋 休闲百搭运动鞋 ","goods_sn":"754234","goods_type":5,"id":1454775,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754234,SANFU,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609061515022996.jpg","m_goods_id":0,"mb_price":99,"model":"学院/B927情侣款D","num":48,"number":48,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061512276906.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473149767,"shelf_timeStr":"2016-09-06 16:16:07","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259198,"img":"http://img.sanfu.com/img/goods/list/201609061515022996.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"754234 "},{"goods":{"addtime":89,"addtimeStr":"1970-01-01 08:01:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":1421185,"goods_name":"三福2016撞色户外防水旅行包 大容量学院双肩包","goods_sn":"362498","goods_type":5,"id":1474741,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362498,三福,配饰,配饰,经典,包袋,防水料","l_img":"http://img.sanfu.com/img/goods/list/201609081619118969.jpg","m_goods_id":0,"mb_price":89,"model":"学院/户外8072净色","num":7,"number":7,"pattern":"80.1","pf_price":89,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609081616111339.jpg","sc_price":89,"search_words":"","season":"","shelf_time":1473387770,"shelf_timeStr":"2016-09-09 10:22:50","smallpic":"","sort_id":155,"start_time":89,"start_timeStr":"1970-01-01 08:01:29"},"id":259199,"img":"http://img.sanfu.com/img/goods/list/201609081619118969.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362498"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":185,"goods_name":"三福2016男秋撞色杠条透气低帮板鞋 系带帆布运动鞋","goods_sn":"361555","goods_type":5,"id":1474733,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361555,SANFU,配饰,配饰,流行,鞋,布料","l_img":"http://img.sanfu.com/img/goods/list/201609081534015506.jpg","m_goods_id":0,"mb_price":99,"model":"休闲/785条杠","num":131,"number":131,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609081532034644.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473387770,"shelf_timeStr":"2016-09-09 10:22:50","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259200,"img":"http://img.sanfu.com/img/goods/list/201609081534015506.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361555"},{"goods":{"addtime":67,"addtimeStr":"1970-01-01 08:01:07","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"8.9","genre_id":185,"goods_name":"三福2016男夏季低邦净色PU板鞋 时尚冲孔学院板鞋","goods_sn":"752645","goods_type":1,"id":14157,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"752645,三福,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201603151024295907.jpg","m_goods_id":0,"mb_price":67,"model":"学院/9200套口冲孔D","num":676,"number":676,"pattern":"60.3","pf_price":67,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1603/middle201603151023409995.jpg","sc_price":75,"search_words":"","season":"","shelf_time":1458008747,"shelf_timeStr":"2016-03-15 10:25:47","smallpic":"","sort_id":155,"start_time":75,"start_timeStr":"1970-01-01 08:01:15"},"id":259201,"img":"http://img.sanfu.com/img/goods/list/201603151024295907.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"752645"},{"goods":{"addtime":85,"addtimeStr":"1970-01-01 08:01:25","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"8.6","genre_id":1421185,"goods_name":"三福2016净色双隔层帆布背包 韩版学院风双肩包","goods_sn":"361460","goods_type":5,"id":1394759,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361460,三福,配饰,配饰,经典,包袋,防水料","l_img":"http://img.sanfu.com/img/goods/list/201609031718526006.jpg","m_goods_id":0,"mb_price":85,"model":"学院/B0065净色双隔层","num":8,"number":8,"pattern":"76.5","pf_price":85,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609031714469295.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473058840,"shelf_timeStr":"2016-09-05 15:00:40","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259202,"img":"http://img.sanfu.com/img/goods/list/201609031718526006.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361460"},{"goods":null,"id":259203,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":null,"id":259204,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/showmatch.htm"}],"serial":1,"template_id":101},{"cname":"","id":313,"in_use":1,"list":[{"goods":null,"id":259205,"img":"http://img.sanfu.com/img/template/201608161731579845.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"163"},{"goods":{"addtime":25,"addtimeStr":"1970-01-01 08:00:25","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":163,"goods_name":"圣绯蕊 男迷彩橡筋简洁内裤 柔软舒适平角底裤","goods_sn":"361070","goods_type":1,"id":1274705,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361070,SANFRAN,内衣,下装,经典,男内裤,莱卡棉","l_img":"http://img.sanfu.com/img/goods/list/201608241648502438.jpg","m_goods_id":0,"mb_price":25,"model":"045迷彩橡筋OEM","num":64,"number":64,"pattern":"22.5","pf_price":25,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608241644572765.jpg","sc_price":25,"search_words":"","season":"","shelf_time":1472028555,"shelf_timeStr":"2016-08-24 16:49:15","smallpic":"","sort_id":159,"start_time":25,"start_timeStr":"1970-01-01 08:00:25"},"id":259206,"img":"http://img.sanfu.com/img/goods/list/201608241648502438.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361070"},{"goods":{"addtime":149,"addtimeStr":"1970-01-01 08:02:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":165,"goods_name":"圣绯蕊 男秋袖印杠条数字贴标居家服 前短后长睡衣套装","goods_sn":"361049","goods_type":5,"id":1554716,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361049,SANFRAN,内衣,裙装/套装,经典,睡衣,单面卫衣","l_img":"http://img.sanfu.com/img/goods/list/201609181708572368.jpg","m_goods_id":0,"mb_price":149,"model":"9018袖印杠条套OEM","num":4,"number":4,"pattern":"134.1","pf_price":149,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609181706201843.jpg","sc_price":149,"search_words":"","season":"","shelf_time":1474189796,"shelf_timeStr":"2016-09-18 17:09:56","smallpic":"","sort_id":162,"start_time":149,"start_timeStr":"1970-01-01 08:02:29"},"id":259207,"img":"http://img.sanfu.com/img/goods/list/201609181708572368.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361049"},{"goods":{"addtime":29,"addtimeStr":"1970-01-01 08:00:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":163,"goods_name":"圣绯蕊 男满底趣味印花内裤 舒适透气宽筋平角底裤","goods_sn":"362361","goods_type":5,"id":1394739,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362361,SANFRAN,内衣,下装,经典,男内裤,莱卡棉","l_img":"http://img.sanfu.com/img/goods/list/201609071716455117.jpg","m_goods_id":0,"mb_price":29,"model":"0163趣味满底卡通OEM","num":46,"number":46,"pattern":"26.1","pf_price":29,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609071716071818.jpg","sc_price":29,"search_words":"","season":"","shelf_time":1473240013,"shelf_timeStr":"2016-09-07 17:20:13","smallpic":"","sort_id":159,"start_time":29,"start_timeStr":"1970-01-01 08:00:29"},"id":259208,"img":"http://img.sanfu.com/img/goods/list/201609071716455117.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362361"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":165,"goods_name":"圣绯蕊 男秋小英文印花卫衣款居家服 插肩厚实睡衣单衣","goods_sn":"361060","goods_type":5,"id":1574711,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361060,SANFRAN,内衣,裙装/套装,经典,睡衣,单面卫衣","l_img":"http://img.sanfu.com/img/goods/list/201609181723099051.jpg","m_goods_id":0,"mb_price":99,"model":"4640满底印英文","num":0,"number":0,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609181719536135.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1474190643,"shelf_timeStr":"2016-09-18 17:24:03","smallpic":"","sort_id":162,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259209,"img":"http://img.sanfu.com/img/goods/list/201609181723099051.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361060"},{"goods":{"addtime":8,"addtimeStr":"1970-01-01 08:00:08","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":171,"goods_name":"圣绯蕊 男净色全透气花纱船袜 袜口条纹低邦短袜 1对装 ","goods_sn":"357132","goods_type":5,"id":414880,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"357132,SANFRAN,内衣,配饰,经典,男袜,精梳棉","l_img":"http://img.sanfu.com/img/goods/list/201606041153353458.jpg","m_goods_id":0,"mb_price":8,"model":"328全透气花纱净色OEM","num":83,"number":83,"pattern":"7.2","pf_price":8,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1606/middle201606041149417903.jpg","sc_price":8,"search_words":"","season":"","shelf_time":1465012134,"shelf_timeStr":"2016-06-04 11:48:54","smallpic":"","sort_id":168,"start_time":8,"start_timeStr":"1970-01-01 08:00:08"},"id":259210,"img":"http://img.sanfu.com/img/goods/list/201606041153353458.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"357132"},{"goods":null,"id":259211,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"171"},{"goods":null,"id":259212,"img":"http://img.sanfu.com/img/template/201609241730269931.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"}],"serial":1,"template_id":101}],"nav":{"cname":"","id":255,"in_use":1,"list":[{"goods":null,"id":18186,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/index.html","serial":1,"title":"男生 BOYS","type_key":4,"type_value":"boyIndex"},{"goods":null,"id":18187,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/girls.html","serial":1,"title":"女生 GIRLS","type_key":4,"type_value":"girlIndex"},{"goods":null,"id":18188,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"饰品 ACCESSORIES","type_key":3,"type_value":"65"},{"goods":null,"id":18190,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"折扣专区 SALL","type_key":3,"type_value":"481192"},{"goods":null,"id":18191,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"时尚优选 PLUS","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":18192,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"形象学堂 CLASSROOM","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"},{"goods":null,"id":18193,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"发现 FOUND","type_key":1,"type_value":"http://m.sanfu.com/community/showCommunity.htm"}],"serial":1,"template_id":17},"countdown":346638}
-     * key : thpwbsbhveyygcu
-     * sign : B39BAE9CA03B2F5C32B483E1C67D9FFD
-     * length : 36175
+     * cname :
+     * id : 255
+     * in_use : 1
+     * list : [{"goods":null,"id":18186,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/index.html","serial":1,"title":"男生 BOYS","type_key":4,"type_value":"boyIndex"},{"goods":null,"id":18187,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/girls.html","serial":1,"title":"女生 GIRLS","type_key":4,"type_value":"girlIndex"},{"goods":null,"id":18188,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"饰品 ACCESSORIES","type_key":3,"type_value":"65"},{"goods":null,"id":18190,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"折扣专区 SALL","type_key":3,"type_value":"481192"},{"goods":null,"id":18191,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"时尚优选 PLUS","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":18192,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"形象学堂 CLASSROOM","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"},{"goods":null,"id":18193,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"发现 FOUND","type_key":1,"type_value":"http://m.sanfu.com/community/showCommunity.htm"}]
+     * serial : 1
+     * template_id : 17
      */
 
-    private boolean success;
+    private NavBean nav;
     /**
-     * index : [{"cname":"","id":302,"in_use":1,"list":[{"goods":null,"id":259552,"img":"http://img.sanfu.com/img/template/201610092112245244.jpg","in_use":1,"list":[],"module_id":302,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"277"}],"serial":1,"template_id":101},{"cname":"","id":303,"in_use":1,"list":[{"goods":null,"id":259151,"img":"http://img.sanfu.com/img/template/201608201059308907.jpg","in_use":1,"list":[],"module_id":303,"rurl":"/html/c/sort.html","serial":1,"title":"","type_key":4,"type_value":"boyClass"},{"goods":null,"id":259152,"img":"http://img.sanfu.com/img/template/201608201059430849.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/html/custom/custom.html"},{"goods":null,"id":259153,"img":"http://img.sanfu.com/img/template/201608201059568373.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=1"},{"goods":null,"id":259154,"img":"http://img.sanfu.com/img/template/201608201100051839.jpg","in_use":1,"list":[],"module_id":303,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"}],"serial":1,"template_id":101},{"cname":"","id":304,"in_use":1,"list":[{"goods":null,"id":259155,"img":"http://img.sanfu.com/img/template/201610101858275545.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":null,"id":259156,"img":"http://img.sanfu.com/img/template/201610101858462401.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"},{"goods":null,"id":259157,"img":"http://img.sanfu.com/img/template/201610101859115391.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"72"},{"goods":null,"id":259158,"img":"http://img.sanfu.com/img/template/201610101900027450.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"70"},{"goods":null,"id":259159,"img":"http://img.sanfu.com/img/template/201610101933574254.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=306819&cpp=0"},{"goods":null,"id":259160,"img":"http://img.sanfu.com/img/template/201610101934076674.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":null,"id":259161,"img":"http://img.sanfu.com/img/template/201610101934152444.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"165"},{"goods":null,"id":259162,"img":"http://img.sanfu.com/img/template/201610101934241382.jpg","in_use":1,"list":[],"module_id":304,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"163"}],"serial":1,"template_id":101},{"cname":"","id":305,"in_use":1,"list":[{"goods":null,"id":259163,"img":"http://img.sanfu.com/img/template/201609231459563778.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/showRush.htm"},{"goods":null,"id":259164,"img":"http://img.sanfu.com/img/template/201609231500160107.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":null,"id":259165,"img":"http://img.sanfu.com/img/template/201609021133000706.jpg","in_use":1,"list":[],"module_id":305,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"241187"}],"serial":1,"template_id":101},{"cname":"","id":306,"in_use":1,"list":[{"goods":null,"id":259308,"img":"http://img.sanfu.com/img/template/201607211844333240.jpg","in_use":1,"list":[],"module_id":306,"rurl":"/self/showGift.htm","serial":1,"title":"","type_key":4,"type_value":"showGift"},{"goods":{"addtime":259,"addtimeStr":"1970-01-01 08:04:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋满版迷彩运动夹克 撞色双面可穿外套","goods_sn":"361226","goods_type":5,"id":1374784,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361226,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201609011728237675.jpg","m_goods_id":0,"mb_price":259,"model":"TZ-8087双面迷彩","num":25,"number":25,"pattern":"233.1","pf_price":259,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011725039356.jpg","sc_price":259,"search_words":"","season":"","shelf_time":1472783445,"shelf_timeStr":"2016-09-02 10:30:45","smallpic":"","sort_id":75,"start_time":259,"start_timeStr":"1970-01-01 08:04:19"},"id":259171,"img":"http://img.sanfu.com/img/goods/list/201609011728237675.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":2,"title":"","type_key":2,"type_value":"361226"},{"goods":{"addtime":339,"addtimeStr":"1970-01-01 08:05:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":86,"goods_name":"三福2016男秋满版迷彩后背刺绣外套 中长款风衣","goods_sn":"753884","goods_type":5,"id":1094752,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"753884,SANFU,男装,上装,时尚,外套,棉料","l_img":"http://img.sanfu.com/img/goods/list/201608041522195826.jpg","m_goods_id":0,"mb_price":339,"model":"MD-9665图案迷彩","num":20,"number":20,"pattern":"305.1","pf_price":339,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608041521347070.jpg","sc_price":339,"search_words":"","season":"","shelf_time":1470362095,"shelf_timeStr":"2016-08-05 09:54:55","smallpic":"","sort_id":75,"start_time":339,"start_timeStr":"1970-01-01 08:05:39"},"id":259172,"img":"http://img.sanfu.com/img/goods/list/201608041522195826.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":3,"title":"","type_key":2,"type_value":"753884"},{"goods":{"addtime":179,"addtimeStr":"1970-01-01 08:02:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋迷彩拼接后背字母印花外套 百搭运动衣","goods_sn":"360432","goods_type":5,"id":1054719,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360432,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201607290945565442.jpg","m_goods_id":0,"mb_price":179,"model":"CC-6326278迷彩拼接","num":68,"number":68,"pattern":"161.1","pf_price":179,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607290944579664.jpg","sc_price":179,"search_words":"","season":"","shelf_time":1470016206,"shelf_timeStr":"2016-08-01 09:50:06","smallpic":"","sort_id":75,"start_time":179,"start_timeStr":"1970-01-01 08:02:59"},"id":259168,"img":"http://img.sanfu.com/img/goods/list/201607290945565442.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":4,"title":"","type_key":2,"type_value":"360432"},{"goods":{"addtime":299,"addtimeStr":"1970-01-01 08:04:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":85,"goods_name":"三福2016男秋韩版翻领修身西装外套 净色商务西服","goods_sn":"361091","goods_type":5,"id":1234779,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361091,SATTACHERA,男装,上装,经典,西装,棉","l_img":"http://img.sanfu.com/img/goods/list/201609011620028572.jpg","m_goods_id":0,"mb_price":299,"model":"CH 6655磨毛","num":33,"number":33,"pattern":"269.1","pf_price":299,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011629231098.jpg","sc_price":299,"search_words":"","season":"","shelf_time":1472718585,"shelf_timeStr":"2016-09-01 16:29:45","smallpic":"","sort_id":75,"start_time":299,"start_timeStr":"1970-01-01 08:04:59"},"id":259167,"img":"http://img.sanfu.com/img/goods/list/201609011620028572.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":5,"title":"","type_key":2,"type_value":"361091"},{"goods":{"addtime":229,"addtimeStr":"1970-01-01 08:03:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋立领净色机车PU夹克 休闲百搭修身外套","goods_sn":"753925","goods_type":5,"id":874730,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"753925,SATTACHERA,男装,上装,经典,外套,仿皮","l_img":"http://img.sanfu.com/img/goods/list/201607231457235029.jpg","m_goods_id":0,"mb_price":229,"model":"PS-MD-01皮衣","num":53,"number":53,"pattern":"206.1","pf_price":229,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231456409747.jpg","sc_price":229,"search_words":"","season":"","shelf_time":1470016211,"shelf_timeStr":"2016-08-01 09:50:11","smallpic":"","sort_id":75,"start_time":229,"start_timeStr":"1970-01-01 08:03:49"},"id":259170,"img":"http://img.sanfu.com/img/goods/list/201607231457235029.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":6,"title":"","type_key":2,"type_value":"753925"},{"goods":{"addtime":279,"addtimeStr":"1970-01-01 08:04:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋净色翻盖口袋棒球夹克 飞行员外套","goods_sn":"754189","goods_type":5,"id":1214730,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754189,SANFU,男装,上装,时尚,外套,麂皮绒布","l_img":"http://img.sanfu.com/img/goods/list/201608161738158181.jpg","m_goods_id":0,"mb_price":279,"model":"DD-1062大口袋","num":21,"number":21,"pattern":"251.1","pf_price":279,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608161737170552.jpg","sc_price":279,"search_words":"","season":"","shelf_time":1472694457,"shelf_timeStr":"2016-09-01 09:47:37","smallpic":"","sort_id":75,"start_time":279,"start_timeStr":"1970-01-01 08:04:39"},"id":259169,"img":"http://img.sanfu.com/img/goods/list/201608161738158181.jpg","in_use":1,"list":[],"module_id":306,"rurl":"","serial":7,"title":"","type_key":2,"type_value":"754189"}],"serial":1,"template_id":101},{"cname":"","id":307,"in_use":1,"list":[{"goods":null,"id":259173,"img":"http://img.sanfu.com/img/template/201606061041591176.jpg","in_use":1,"list":[],"module_id":307,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":259310,"img":"http://img.sanfu.com/img/template/201609091117591167.jpg","in_use":1,"list":[],"module_id":307,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"}],"serial":1,"template_id":101},{"cname":"","id":308,"in_use":1,"list":[{"goods":null,"id":259174,"img":"http://img.sanfu.com/img/index_new/index_55.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"http://m.sanfu.com/goods/showmatch.htm"},{"goods":null,"id":259175,"img":"http://img.sanfu.com/img/template/201608231410298020.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/html/custom/custom.html"},{"goods":null,"id":259176,"img":"http://img.sanfu.com/img/template/201609051515083432.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1420264.html"},{"goods":null,"id":259177,"img":"http://img.sanfu.com/img/template/201608251716015805.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1320266.html"},{"goods":null,"id":259178,"img":"http://img.sanfu.com/img/template/201609101517099900.jpg","in_use":1,"list":[],"module_id":308,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1520264.html"}],"serial":1,"template_id":101},{"cname":"","id":309,"in_use":1,"list":[{"goods":null,"id":259179,"img":"http://img.sanfu.com/img/template/201610101511149423.jpg","in_use":1,"list":[],"module_id":309,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211643&cpp=0"},{"goods":null,"id":259180,"img":"http://img.sanfu.com/img/template/201609231502086827.jpg","in_use":1,"list":[],"module_id":309,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=306819&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":310,"in_use":1,"list":[{"goods":null,"id":259181,"img":"http://img.sanfu.com/img/template/201608151632376239.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"75"},{"goods":{"addtime":339,"addtimeStr":"1970-01-01 08:05:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":86,"goods_name":"三福2016男秋满版迷彩翻领外套 双口袋中长款风衣","goods_sn":"361417","goods_type":5,"id":1174721,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361417,SANFU,男装,上装,时尚,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201608111535158677.jpg","m_goods_id":0,"mb_price":339,"model":"YD-3130双袋迷彩","num":25,"number":25,"pattern":"305.1","pf_price":339,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608111534387741.jpg","sc_price":339,"search_words":"","season":"","shelf_time":1470968630,"shelf_timeStr":"2016-08-12 10:23:50","smallpic":"","sort_id":75,"start_time":339,"start_timeStr":"1970-01-01 08:05:39"},"id":259182,"img":"http://img.sanfu.com/img/goods/list/201608111535158677.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361417"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":93,"goods_name":"三福2016男秋撞色交错印花毛衣 圆领套头针织衫","goods_sn":"361220","goods_type":2,"id":1374782,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361220,SATTACHERA,男装,上装,经典,毛衣,仿丝光棉","l_img":"http://img.sanfu.com/img/goods/list/201609011711456192.jpg","m_goods_id":0,"mb_price":139,"model":"LS-SY013交错印花","num":12,"number":12,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609011706393624.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1472783435,"shelf_timeStr":"2016-09-02 10:30:35","smallpic":"","sort_id":76,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259183,"img":"http://img.sanfu.com/img/goods/list/201609011711456192.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361220"},{"goods":{"addtime":229,"addtimeStr":"1970-01-01 08:03:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":89,"goods_name":"三福2016男秋袖口刺绣后背印花飞行员夹克 棒球外套","goods_sn":"360791","goods_type":5,"id":1054749,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360791,SANFU,男装,上装,流行,外套,化纤","l_img":"http://img.sanfu.com/img/goods/list/201607291717074350.jpg","m_goods_id":0,"mb_price":229,"model":"PS-TZ-8075主推款","num":16,"number":16,"pattern":"206.1","pf_price":229,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291716187327.jpg","sc_price":229,"search_words":"","season":"","shelf_time":1470905608,"shelf_timeStr":"2016-08-11 16:53:28","smallpic":"","sort_id":75,"start_time":229,"start_timeStr":"1970-01-01 08:03:49"},"id":259184,"img":"http://img.sanfu.com/img/goods/list/201607291717074350.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360791"},{"goods":{"addtime":109,"addtimeStr":"1970-01-01 08:01:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":93,"goods_name":"三福2016男冬纯色高弹包芯纱毛衣 韩版修身针织衫","goods_sn":"359723","goods_type":5,"id":1614725,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"359723,SANFU,男装,上装,流行,毛衣,包芯纱","l_img":"http://img.sanfu.com/img/goods/list/201609241104177541.jpg","m_goods_id":0,"mb_price":109,"model":"PS-YF-1633高弹包芯纱","num":4,"number":4,"pattern":"98.1","pf_price":109,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609241059153454.jpg","sc_price":109,"search_words":"","season":"","shelf_time":1474686455,"shelf_timeStr":"2016-09-24 11:07:35","smallpic":"","sort_id":76,"start_time":109,"start_timeStr":"1970-01-01 08:01:49"},"id":259185,"img":"http://img.sanfu.com/img/goods/list/201609241104177541.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"359723"},{"goods":{"addtime":119,"addtimeStr":"1970-01-01 08:01:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":81,"goods_name":"三福2016男秋撞色几何色块拼接长袖T恤 圆领套头上衣","goods_sn":"361231","goods_type":5,"id":1234787,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361231,SATTACHERA,男装,上装,经典,T恤,竹节棉","l_img":"http://img.sanfu.com/img/goods/list/201608191133223820.jpg","m_goods_id":0,"mb_price":119,"model":"LS-3530色块拼接","num":10,"number":10,"pattern":"107.1","pf_price":119,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608191129533057.jpg","sc_price":119,"search_words":"","season":"","shelf_time":1472088521,"shelf_timeStr":"2016-08-25 09:28:41","smallpic":"","sort_id":70,"start_time":119,"start_timeStr":"1970-01-01 08:01:59"},"id":259186,"img":"http://img.sanfu.com/img/goods/list/201608191133223820.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361231"},{"goods":null,"id":259187,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"76"},{"goods":null,"id":259188,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":310,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211643&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":311,"in_use":1,"list":[{"goods":null,"id":259189,"img":"http://img.sanfu.com/img/template/201608151632477442.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"883"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男秋原色弹力牛仔裤 简约百搭修身长裤","goods_sn":"360761","goods_type":2,"id":874806,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360761,SANFU,男装,下装,时尚,牛仔裤,棉","l_img":"http://img.sanfu.com/img/goods/list/201607231400184070.jpg","m_goods_id":0,"mb_price":139,"model":"PS-MRB-047弹力牛仔","num":25,"number":25,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231359295899.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1469499421,"shelf_timeStr":"2016-07-26 10:17:01","smallpic":"","sort_id":79,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259190,"img":"http://img.sanfu.com/img/goods/list/201607231400184070.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360761"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男秋抽绳修身小脚牛仔裤 配字母挂件长裤","goods_sn":"360587","goods_type":5,"id":1054731,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360587,SANFU,男装,下装,时尚,牛仔裤,针织牛仔","l_img":"http://img.sanfu.com/img/goods/list/201607291645185033.jpg","m_goods_id":0,"mb_price":139,"model":"DS-7121字母挂件普洗","num":18,"number":18,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291649146439.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1470016205,"shelf_timeStr":"2016-08-01 09:50:05","smallpic":"","sort_id":79,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259191,"img":"http://img.sanfu.com/img/goods/list/201607291645185033.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360587"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":96,"goods_name":"三福2016男秋纯色修身休闲裤 简约百搭长裤","goods_sn":"360751","goods_type":1,"id":874805,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360751,SANFU,男装,下装,时尚,休闲裤,棉","l_img":"http://img.sanfu.com/img/goods/list/201607231350487030.jpg","m_goods_id":0,"mb_price":139,"model":"PS-JH-5752锦棉","num":55,"number":55,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607231348210438.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1469499421,"shelf_timeStr":"2016-07-26 10:17:01","smallpic":"","sort_id":78,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259192,"img":"http://img.sanfu.com/img/goods/list/201607231350487030.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360751"},{"goods":{"addtime":179,"addtimeStr":"1970-01-01 08:02:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":96,"goods_name":"三福2016男秋暗绿迷彩长裤 可摘取式织带休闲裤","goods_sn":"360686","goods_type":1,"id":1054738,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360686,SANFU,男装,下装,时尚,休闲裤,洗水棉","l_img":"http://img.sanfu.com/img/goods/list/201607291028545544.jpg","m_goods_id":0,"mb_price":179,"model":"GT-S699暗绿迷彩","num":47,"number":47,"pattern":"161.1","pf_price":179,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607291028310794.jpg","sc_price":179,"search_words":"","season":"","shelf_time":1469779149,"shelf_timeStr":"2016-07-29 15:59:09","smallpic":"","sort_id":78,"start_time":179,"start_timeStr":"1970-01-01 08:02:59"},"id":259193,"img":"http://img.sanfu.com/img/goods/list/201607291028545544.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360686"},{"goods":{"addtime":159,"addtimeStr":"1970-01-01 08:02:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":63,"description":"10.0","genre_id":99,"goods_name":"三福2016男冬修身小脚字母胶印牛仔裤 后袋织带长裤","goods_sn":"362751","goods_type":5,"id":1774713,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362751,SANFU,男装,下装,时尚,牛仔裤,棉氨","l_img":"http://img.sanfu.com/img/goods/list/201609291537506826.jpg","m_goods_id":0,"mb_price":159,"model":"DS-7141后袋字母织带","num":2,"number":2,"pattern":"143.1","pf_price":159,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609291535525086.jpg","sc_price":159,"search_words":"","season":"","shelf_time":1475134989,"shelf_timeStr":"2016-09-29 15:43:09","smallpic":"","sort_id":79,"start_time":159,"start_timeStr":"1970-01-01 08:02:39"},"id":259194,"img":"http://img.sanfu.com/img/goods/list/201609291537506826.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362751"},{"goods":null,"id":259195,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"79"},{"goods":null,"id":259196,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":311,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=219226&cpp=0"}],"serial":1,"template_id":101},{"cname":"","id":312,"in_use":1,"list":[{"goods":null,"id":259197,"img":"http://img.sanfu.com/img/template/201608151632567138.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":185,"goods_name":"三福2016男秋净色系带低帮板鞋 休闲百搭运动鞋 ","goods_sn":"754234","goods_type":5,"id":1454775,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754234,SANFU,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609061515022996.jpg","m_goods_id":0,"mb_price":99,"model":"学院/B927情侣款D","num":48,"number":48,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061512276906.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473149767,"shelf_timeStr":"2016-09-06 16:16:07","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259198,"img":"http://img.sanfu.com/img/goods/list/201609061515022996.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"754234 "},{"goods":{"addtime":89,"addtimeStr":"1970-01-01 08:01:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":1421185,"goods_name":"三福2016撞色户外防水旅行包 大容量学院双肩包","goods_sn":"362498","goods_type":5,"id":1474741,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362498,三福,配饰,配饰,经典,包袋,防水料","l_img":"http://img.sanfu.com/img/goods/list/201609081619118969.jpg","m_goods_id":0,"mb_price":89,"model":"学院/户外8072净色","num":7,"number":7,"pattern":"80.1","pf_price":89,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609081616111339.jpg","sc_price":89,"search_words":"","season":"","shelf_time":1473387770,"shelf_timeStr":"2016-09-09 10:22:50","smallpic":"","sort_id":155,"start_time":89,"start_timeStr":"1970-01-01 08:01:29"},"id":259199,"img":"http://img.sanfu.com/img/goods/list/201609081619118969.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362498"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":185,"goods_name":"三福2016男秋撞色杠条透气低帮板鞋 系带帆布运动鞋","goods_sn":"361555","goods_type":5,"id":1474733,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361555,SANFU,配饰,配饰,流行,鞋,布料","l_img":"http://img.sanfu.com/img/goods/list/201609081534015506.jpg","m_goods_id":0,"mb_price":99,"model":"休闲/785条杠","num":131,"number":131,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609081532034644.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473387770,"shelf_timeStr":"2016-09-09 10:22:50","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259200,"img":"http://img.sanfu.com/img/goods/list/201609081534015506.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361555"},{"goods":{"addtime":67,"addtimeStr":"1970-01-01 08:01:07","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"8.9","genre_id":185,"goods_name":"三福2016男夏季低邦净色PU板鞋 时尚冲孔学院板鞋","goods_sn":"752645","goods_type":1,"id":14157,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"752645,三福,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201603151024295907.jpg","m_goods_id":0,"mb_price":67,"model":"学院/9200套口冲孔D","num":676,"number":676,"pattern":"60.3","pf_price":67,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1603/middle201603151023409995.jpg","sc_price":75,"search_words":"","season":"","shelf_time":1458008747,"shelf_timeStr":"2016-03-15 10:25:47","smallpic":"","sort_id":155,"start_time":75,"start_timeStr":"1970-01-01 08:01:15"},"id":259201,"img":"http://img.sanfu.com/img/goods/list/201603151024295907.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"752645"},{"goods":{"addtime":85,"addtimeStr":"1970-01-01 08:01:25","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"8.6","genre_id":1421185,"goods_name":"三福2016净色双隔层帆布背包 韩版学院风双肩包","goods_sn":"361460","goods_type":5,"id":1394759,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361460,三福,配饰,配饰,经典,包袋,防水料","l_img":"http://img.sanfu.com/img/goods/list/201609031718526006.jpg","m_goods_id":0,"mb_price":85,"model":"学院/B0065净色双隔层","num":8,"number":8,"pattern":"76.5","pf_price":85,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609031714469295.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1473058840,"shelf_timeStr":"2016-09-05 15:00:40","smallpic":"","sort_id":155,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259202,"img":"http://img.sanfu.com/img/goods/list/201609031718526006.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361460"},{"goods":null,"id":259203,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"},{"goods":null,"id":259204,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":312,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/showmatch.htm"}],"serial":1,"template_id":101},{"cname":"","id":313,"in_use":1,"list":[{"goods":null,"id":259205,"img":"http://img.sanfu.com/img/template/201608161731579845.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"163"},{"goods":{"addtime":25,"addtimeStr":"1970-01-01 08:00:25","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":163,"goods_name":"圣绯蕊 男迷彩橡筋简洁内裤 柔软舒适平角底裤","goods_sn":"361070","goods_type":1,"id":1274705,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361070,SANFRAN,内衣,下装,经典,男内裤,莱卡棉","l_img":"http://img.sanfu.com/img/goods/list/201608241648502438.jpg","m_goods_id":0,"mb_price":25,"model":"045迷彩橡筋OEM","num":64,"number":64,"pattern":"22.5","pf_price":25,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608241644572765.jpg","sc_price":25,"search_words":"","season":"","shelf_time":1472028555,"shelf_timeStr":"2016-08-24 16:49:15","smallpic":"","sort_id":159,"start_time":25,"start_timeStr":"1970-01-01 08:00:25"},"id":259206,"img":"http://img.sanfu.com/img/goods/list/201608241648502438.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361070"},{"goods":{"addtime":149,"addtimeStr":"1970-01-01 08:02:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":165,"goods_name":"圣绯蕊 男秋袖印杠条数字贴标居家服 前短后长睡衣套装","goods_sn":"361049","goods_type":5,"id":1554716,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361049,SANFRAN,内衣,裙装/套装,经典,睡衣,单面卫衣","l_img":"http://img.sanfu.com/img/goods/list/201609181708572368.jpg","m_goods_id":0,"mb_price":149,"model":"9018袖印杠条套OEM","num":4,"number":4,"pattern":"134.1","pf_price":149,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609181706201843.jpg","sc_price":149,"search_words":"","season":"","shelf_time":1474189796,"shelf_timeStr":"2016-09-18 17:09:56","smallpic":"","sort_id":162,"start_time":149,"start_timeStr":"1970-01-01 08:02:29"},"id":259207,"img":"http://img.sanfu.com/img/goods/list/201609181708572368.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361049"},{"goods":{"addtime":29,"addtimeStr":"1970-01-01 08:00:29","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":163,"goods_name":"圣绯蕊 男满底趣味印花内裤 舒适透气宽筋平角底裤","goods_sn":"362361","goods_type":5,"id":1394739,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362361,SANFRAN,内衣,下装,经典,男内裤,莱卡棉","l_img":"http://img.sanfu.com/img/goods/list/201609071716455117.jpg","m_goods_id":0,"mb_price":29,"model":"0163趣味满底卡通OEM","num":46,"number":46,"pattern":"26.1","pf_price":29,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609071716071818.jpg","sc_price":29,"search_words":"","season":"","shelf_time":1473240013,"shelf_timeStr":"2016-09-07 17:20:13","smallpic":"","sort_id":159,"start_time":29,"start_timeStr":"1970-01-01 08:00:29"},"id":259208,"img":"http://img.sanfu.com/img/goods/list/201609071716455117.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362361"},{"goods":{"addtime":99,"addtimeStr":"1970-01-01 08:01:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":165,"goods_name":"圣绯蕊 男秋小英文印花卫衣款居家服 插肩厚实睡衣单衣","goods_sn":"361060","goods_type":5,"id":1574711,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361060,SANFRAN,内衣,裙装/套装,经典,睡衣,单面卫衣","l_img":"http://img.sanfu.com/img/goods/list/201609181723099051.jpg","m_goods_id":0,"mb_price":99,"model":"4640满底印英文","num":0,"number":0,"pattern":"89.1","pf_price":99,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609181719536135.jpg","sc_price":99,"search_words":"","season":"","shelf_time":1474190643,"shelf_timeStr":"2016-09-18 17:24:03","smallpic":"","sort_id":162,"start_time":99,"start_timeStr":"1970-01-01 08:01:39"},"id":259209,"img":"http://img.sanfu.com/img/goods/list/201609181723099051.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361060"},{"goods":{"addtime":8,"addtimeStr":"1970-01-01 08:00:08","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":171,"goods_name":"圣绯蕊 男净色全透气花纱船袜 袜口条纹低邦短袜 1对装 ","goods_sn":"357132","goods_type":5,"id":414880,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"357132,SANFRAN,内衣,配饰,经典,男袜,精梳棉","l_img":"http://img.sanfu.com/img/goods/list/201606041153353458.jpg","m_goods_id":0,"mb_price":8,"model":"328全透气花纱净色OEM","num":83,"number":83,"pattern":"7.2","pf_price":8,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1606/middle201606041149417903.jpg","sc_price":8,"search_words":"","season":"","shelf_time":1465012134,"shelf_timeStr":"2016-06-04 11:48:54","smallpic":"","sort_id":168,"start_time":8,"start_timeStr":"1970-01-01 08:00:08"},"id":259210,"img":"http://img.sanfu.com/img/goods/list/201606041153353458.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"357132"},{"goods":null,"id":259211,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"171"},{"goods":null,"id":259212,"img":"http://img.sanfu.com/img/template/201609241730269931.jpg","in_use":1,"list":[],"module_id":313,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"155"}],"serial":1,"template_id":101}]
+     * index : [{"cname":"","id":314,"in_use":1,"list":[{"goods":null,"id":259467,"img":"http://img.sanfu.com/img/template/201610092112387709.jpg","in_use":1,"list":[],"module_id":314,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"236"}],"serial":1,"template_id":102},{"cname":"","id":315,"in_use":1,"list":[{"goods":null,"id":259217,"img":"http://img.sanfu.com/img/template/201608201100133719.jpg","in_use":1,"list":[],"module_id":315,"rurl":"/html/c/sort.html","serial":1,"title":"","type_key":4,"type_value":"girlClass"},{"goods":null,"id":259218,"img":"http://img.sanfu.com/img/template/201608201100199303.jpg","in_use":1,"list":[],"module_id":315,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/html/custom/custom.html"},{"goods":null,"id":259219,"img":"http://img.sanfu.com/img/template/201608201100259865.jpg","in_use":1,"list":[],"module_id":315,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=1"},{"goods":null,"id":259220,"img":"http://img.sanfu.com/img/template/201608201100292581.jpg","in_use":1,"list":[],"module_id":315,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"}],"serial":1,"template_id":102},{"cname":"","id":316,"in_use":1,"list":[{"goods":null,"id":259221,"img":"http://img.sanfu.com/img/template/201610101027393659.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"105"},{"goods":null,"id":259222,"img":"http://img.sanfu.com/img/template/201610101028262134.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"102"},{"goods":null,"id":259223,"img":"http://img.sanfu.com/img/template/201610101029069789.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"104"},{"goods":null,"id":259224,"img":"http://img.sanfu.com/img/template/201610101029009823.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"884"},{"goods":null,"id":259225,"img":"http://img.sanfu.com/img/template/201610101029218774.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"330"},{"goods":null,"id":259226,"img":"http://img.sanfu.com/img/template/201610101029307616.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"147"},{"goods":null,"id":259227,"img":"http://img.sanfu.com/img/template/201610101029412962.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"1401185"},{"goods":null,"id":259228,"img":"http://img.sanfu.com/img/template/201610101029478368.jpg","in_use":1,"list":[],"module_id":316,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"157"}],"serial":1,"template_id":102},{"cname":"","id":317,"in_use":1,"list":[{"goods":null,"id":259229,"img":"http://img.sanfu.com/img/template/201609231500033384.jpg","in_use":1,"list":[],"module_id":317,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/showRush.htm"},{"goods":null,"id":259230,"img":"http://img.sanfu.com/img/template/201609231500228801.jpg","in_use":1,"list":[],"module_id":317,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"105"},{"goods":null,"id":259231,"img":"http://img.sanfu.com/img/template/201609021133107183.jpg","in_use":1,"list":[],"module_id":317,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"241188"}],"serial":1,"template_id":102},{"cname":"","id":318,"in_use":1,"list":[{"goods":null,"id":259309,"img":"http://img.sanfu.com/img/template/201607211844123997.jpg","in_use":1,"list":[],"module_id":318,"rurl":"/self/showGift.htm","serial":1,"title":"","type_key":4,"type_value":"showGift"},{"goods":{"addtime":249,"addtimeStr":"1970-01-01 08:04:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":122,"goods_name":"三福2016女冬翻领贴布中长款大衣 韩版百搭外头","goods_sn":"754684","goods_type":5,"id":1454736,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754684,SANFU,女装,上装,时尚,外套,打基布","l_img":"http://img.sanfu.com/img/goods/list/201609181051464817.jpg","m_goods_id":0,"mb_price":249,"model":"Q2311#贴图","num":29,"number":29,"pattern":"224.1","pf_price":249,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609181047490625.jpg","sc_price":249,"search_words":"","season":"","shelf_time":1474167156,"shelf_timeStr":"2016-09-18 10:52:36","smallpic":"","sort_id":105,"start_time":249,"start_timeStr":"1970-01-01 08:04:09"},"id":259236,"img":"http://img.sanfu.com/img/goods/list/201609181051464817.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":2,"title":"","type_key":2,"type_value":"754684"},{"goods":{"addtime":295,"addtimeStr":"1970-01-01 08:04:55","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"9.9","genre_id":121,"goods_name":"三福2016女冬纯色翻领夹克 韩版机车修身厚外套","goods_sn":"754155","goods_type":5,"id":1314717,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754155,SANFU,女装,上装,时尚,外套,PU","l_img":"http://img.sanfu.com/img/goods/list/201608300919012066.jpg","m_goods_id":0,"mb_price":295,"model":"Q2177小立领","num":42,"number":42,"pattern":"265.5","pf_price":295,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608300916098821.jpg","sc_price":299,"search_words":"","season":"","shelf_time":1472866628,"shelf_timeStr":"2016-09-03 09:37:08","smallpic":"","sort_id":105,"start_time":299,"start_timeStr":"1970-01-01 08:04:59"},"id":259235,"img":"http://img.sanfu.com/img/goods/list/201608300919012066.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":3,"title":"","type_key":2,"type_value":"754155"},{"goods":{"addtime":229,"addtimeStr":"1970-01-01 08:03:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":125,"goods_name":"三福2016女冬英文织带贴章面包服 韩版连帽棉衣棉服 ","goods_sn":"754129","goods_type":5,"id":1694734,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754129,SANFU,女装,上装,流行,外套,滑雪料","l_img":"http://img.sanfu.com/img/goods/list/201609261724270469.jpg","m_goods_id":0,"mb_price":229,"model":"6613#(英文织带）","num":5,"number":5,"pattern":"206.1","pf_price":229,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609261721282506.jpg","sc_price":229,"search_words":"","season":"","shelf_time":1475112887,"shelf_timeStr":"2016-09-29 09:34:47","smallpic":"","sort_id":105,"start_time":229,"start_timeStr":"1970-01-01 08:03:49"},"id":259238,"img":"http://img.sanfu.com/img/goods/list/201609261724270469.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":4,"title":"","type_key":2,"type_value":"754129"},{"goods":{"addtime":135,"addtimeStr":"1970-01-01 08:02:15","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"9.7","genre_id":180,"goods_name":"三福2016女秋复古英伦学院系带休闲鞋 圆头单鞋（2件减8元3件减15元）","goods_sn":"754246","goods_type":5,"id":1454776,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754246,SANFU,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609061517073734.jpg","m_goods_id":0,"mb_price":135,"model":"复古/A269-3系带D","num":377,"number":377,"pattern":"121.5","pf_price":135,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061514178341.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1473149767,"shelf_timeStr":"2016-09-06 16:16:07","smallpic":"","sort_id":147,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259595,"img":"http://img.sanfu.com/img/goods/list/201609061517073734.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":5,"title":"","type_key":2,"type_value":"754246"},{"goods":{"addtime":129,"addtimeStr":"1970-01-01 08:02:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":177,"goods_name":"三福2016女秋纯色圆头平底鞋 英伦学院风PU单鞋","goods_sn":"753913","goods_type":5,"id":1474743,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"753913,SANFU,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609081630263434.jpg","m_goods_id":0,"mb_price":129,"model":"英伦/65-2圆头D","num":317,"number":317,"pattern":"116.1","pf_price":129,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609081623160625.jpg","sc_price":129,"search_words":"","season":"","shelf_time":1476008695,"shelf_timeStr":"2016-10-09 18:24:55","smallpic":"","sort_id":147,"start_time":129,"start_timeStr":"1970-01-01 08:02:09"},"id":259596,"img":"http://img.sanfu.com/img/goods/list/201609081630263434.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":6,"title":"","type_key":2,"type_value":"753913"},{"goods":{"addtime":65,"addtimeStr":"1970-01-01 08:01:05","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"9.4","genre_id":180,"goods_name":"三福2016女秋英伦学院系带平跟休闲鞋 圆头PU单鞋","goods_sn":"754619","goods_type":5,"id":1454777,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754619,三福,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609061519586483.jpg","m_goods_id":0,"mb_price":65,"model":"学院/6188小白鞋D","num":244,"number":244,"pattern":"58.5","pf_price":65,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061516183435.jpg","sc_price":69,"search_words":"","season":"","shelf_time":1473149767,"shelf_timeStr":"2016-09-06 16:16:07","smallpic":"","sort_id":147,"start_time":69,"start_timeStr":"1970-01-01 08:01:09"},"id":259237,"img":"http://img.sanfu.com/img/goods/list/201609061519586483.jpg","in_use":1,"list":[],"module_id":318,"rurl":"","serial":7,"title":"","type_key":2,"type_value":"754619"}],"serial":1,"template_id":102},{"cname":"","id":319,"in_use":1,"list":[{"goods":null,"id":259239,"img":"http://img.sanfu.com/img/template/201607121030268193.jpg","in_use":1,"list":[],"module_id":319,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":259311,"img":"http://img.sanfu.com/img/template/201609091654001912.jpg","in_use":1,"list":[],"module_id":319,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=219892&cpp=0"}],"serial":1,"template_id":102},{"cname":"","id":320,"in_use":1,"list":[{"goods":null,"id":259240,"img":"http://img.sanfu.com/img/index_new/index_55.jpg","in_use":1,"list":[],"module_id":320,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"http://m.sanfu.com/goods/showmatch.htm"},{"goods":null,"id":259241,"img":"http://img.sanfu.com/img/template/201609181708447826.jpg","in_use":1,"list":[],"module_id":320,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1580266.html"},{"goods":null,"id":259242,"img":"http://img.sanfu.com/img/template/201609301420449091.jpg","in_use":1,"list":[],"module_id":320,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1700265.html"},{"goods":null,"id":259243,"img":"http://img.sanfu.com/img/template/201609241502493070.jpg","in_use":1,"list":[],"module_id":320,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1660264.html"},{"goods":null,"id":259244,"img":"http://img.sanfu.com/img/template/201609101522359553.jpg","in_use":1,"list":[],"module_id":320,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"http://img.sanfu.com/html/news/1520265.html"}],"serial":1,"template_id":102},{"cname":"","id":321,"in_use":1,"list":[{"goods":null,"id":259245,"img":"http://img.sanfu.com/img/template/201609291113408324.jpg","in_use":1,"list":[],"module_id":321,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211608&cpp=0"},{"goods":null,"id":259246,"img":"http://img.sanfu.com/img/template/201609231502175327.jpg","in_use":1,"list":[],"module_id":321,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=297907&cpp=0"}],"serial":1,"template_id":102},{"cname":"","id":322,"in_use":1,"list":[{"goods":null,"id":259247,"img":"http://img.sanfu.com/img/template/201608121706389431.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"105"},{"goods":{"addtime":189,"addtimeStr":"1970-01-01 08:03:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":127,"goods_name":"三福2016女秋净色腰带纽扣风衣 中长款口袋薄外套","goods_sn":"360542","goods_type":1,"id":1014728,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360542,SATTACHERA,女装,上装,经典,外套,天丝","l_img":"http://img.sanfu.com/img/goods/list/201608041525098408.jpg","m_goods_id":0,"mb_price":189,"model":"Y602腰带","num":34,"number":34,"pattern":"170.1","pf_price":189,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608041524257098.jpg","sc_price":189,"search_words":"","season":"","shelf_time":1470295351,"shelf_timeStr":"2016-08-04 15:22:31","smallpic":"","sort_id":105,"start_time":189,"start_timeStr":"1970-01-01 08:03:09"},"id":259248,"img":"http://img.sanfu.com/img/goods/list/201608041525098408.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360542"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":130,"goods_name":"三福2016女冬净色侧边绑带毛衣 圆领宽松套头针织衫","goods_sn":"362412","goods_type":2,"id":1514735,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362412,SANFU,女装,上装,流行,毛衣,棉纱","l_img":"http://img.sanfu.com/img/goods/list/201609141026300651.jpg","m_goods_id":0,"mb_price":139,"model":"160662#(侧绑带）","num":24,"number":24,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609141022428960.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1473820336,"shelf_timeStr":"2016-09-14 10:32:16","smallpic":"","sort_id":107,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259249,"img":"http://img.sanfu.com/img/goods/list/201609141026300651.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362412"},{"goods":{"addtime":109,"addtimeStr":"1970-01-01 08:01:49","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":132,"goods_name":"三福2016女冬卡通人物字母印花卫衣 圆领套头上衣","goods_sn":"362415","goods_type":5,"id":1314713,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"362415,SANFU,女装,上装,流行,卫衣,10支真卫衣","l_img":"http://img.sanfu.com/img/goods/list/201608291715307852.jpg","m_goods_id":0,"mb_price":109,"model":"3066#（卡通人物）","num":29,"number":29,"pattern":"98.1","pf_price":109,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608291713107396.jpg","sc_price":109,"search_words":"","season":"","shelf_time":1472521794,"shelf_timeStr":"2016-08-30 09:49:54","smallpic":"","sort_id":108,"start_time":109,"start_timeStr":"1970-01-01 08:01:49"},"id":259250,"img":"http://img.sanfu.com/img/goods/list/201608291715307852.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"362415"},{"goods":{"addtime":279,"addtimeStr":"1970-01-01 08:04:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":121,"goods_name":"三福2016女冬纯色翻领夹克 韩版机车修身厚外套","goods_sn":"754157","goods_type":5,"id":1314719,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754157,SANFU,女装,上装,时尚,外套,PU","l_img":"http://img.sanfu.com/img/goods/list/201608300945142568.jpg","m_goods_id":0,"mb_price":279,"model":"Q2278大口袋","num":27,"number":27,"pattern":"251.1","pf_price":279,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608300942262829.jpg","sc_price":279,"search_words":"","season":"","shelf_time":1472521794,"shelf_timeStr":"2016-08-30 09:49:54","smallpic":"","sort_id":105,"start_time":279,"start_timeStr":"1970-01-01 08:04:39"},"id":259251,"img":"http://img.sanfu.com/img/goods/list/201608300945142568.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"754157"},{"goods":{"addtime":55,"addtimeStr":"1970-01-01 08:00:55","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":113,"goods_name":"三福2016女秋撞色条纹小高领七分袖T恤 百搭打底衫","goods_sn":"363266","goods_type":5,"id":1454735,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"363266,SANFU,女装,上装,时尚,T恤,弹力罗纹","l_img":"http://img.sanfu.com/img/goods/list/201609061252429320.jpg","m_goods_id":0,"mb_price":55,"model":"83687#合身小高领","num":51,"number":51,"pattern":"49.5","pf_price":55,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061246160592.jpg","sc_price":55,"search_words":"","season":"","shelf_time":1473138089,"shelf_timeStr":"2016-09-06 13:01:29","smallpic":"","sort_id":102,"start_time":55,"start_timeStr":"1970-01-01 08:00:55"},"id":259252,"img":"http://img.sanfu.com/img/goods/list/201609061252429320.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"363266"},{"goods":null,"id":259253,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"104"},{"goods":null,"id":259254,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":322,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=211608&cpp=0"}],"serial":1,"template_id":102},{"cname":"","id":323,"in_use":1,"list":[{"goods":null,"id":259255,"img":"http://img.sanfu.com/img/template/201609141027292435.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"884"},{"goods":{"addtime":69,"addtimeStr":"1970-01-01 08:01:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":134,"goods_name":"三福2016女秋冬新韩版学院弹力打底长裤 净色小脚修身休闲裤","goods_sn":"342181","goods_type":1,"id":11735,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"342181,SATTACHERA,女装,下装,经典,打底裤,弹力斜纹","l_img":"http://www.sanfu.com/upload/index3/201509151008209321.jpg","m_goods_id":0,"mb_price":69,"model":"123-1","num":383,"number":383,"pattern":"62.1","pf_price":69,"s_img":"http://m.sanfu.com/img/cp2_201509151011079617.jpg","sc_price":69,"search_words":"","season":"","shelf_time":1461204218,"shelf_timeStr":"2016-04-21 10:03:38","smallpic":"","sort_id":109,"start_time":69,"start_timeStr":"1970-01-01 08:01:09"},"id":259256,"img":"http://www.sanfu.com/upload/index3/201509151008209321.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"342181"},{"goods":{"addtime":69,"addtimeStr":"1970-01-01 08:01:09","brand_id":59,"c_img":"","category_id":0,"cats_name":"女装>>打底裤","class_id":64,"description":"10.0","genre_id":136,"goods_name":"三福2016女秋冬新品韩版净色小脚裤休闲打底长裤","goods_sn":"338991","goods_type":5,"id":9744,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":1,"isvalid":1,"keywords":"SANFU,女装,下装,时尚,打底裤,斜纹料","l_img":"http://img.sanfu.com/img/goods/list/201602221039501175.jpg","m_goods_id":0,"mb_price":69,"model":"106006-3#","num":687,"number":687,"pattern":"62.1","pf_price":69,"s_img":"http://www.sanfu.com/upload/photobase/middle/2015-08/150818141711dz_m.jpg","sc_price":69,"search_words":"","season":"","shelf_time":1459403461,"shelf_timeStr":"2016-03-31 13:51:01","smallpic":"index_pic/2015-05/150526140857qu.jpg","sort_id":109,"start_time":69,"start_timeStr":"1970-01-01 08:01:09"},"id":259257,"img":"http://img.sanfu.com/img/goods/list/201602221039501175.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"338991"},{"goods":{"addtime":189,"addtimeStr":"1970-01-01 08:03:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":142,"goods_name":"三福2016女秋荷叶袖杠条刺绣鱼尾连衣裙 短袖连身裙","goods_sn":"363251","goods_type":5,"id":1454733,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"363251,SANFU,女装,裙装/套装,流行,连衣裙,双曲","l_img":"http://img.sanfu.com/img/goods/list/201609061132176307.jpg","m_goods_id":0,"mb_price":189,"model":"18392#荷叶袖双曲","num":37,"number":37,"pattern":"170.1","pf_price":189,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061129054107.jpg","sc_price":189,"search_words":"","season":"","shelf_time":1473132910,"shelf_timeStr":"2016-09-06 11:35:10","smallpic":"","sort_id":111,"start_time":189,"start_timeStr":"1970-01-01 08:03:09"},"id":259258,"img":"http://img.sanfu.com/img/goods/list/201609061132176307.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"363251"},{"goods":{"addtime":69,"addtimeStr":"1970-01-01 08:01:09","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":136,"goods_name":"三福2016女秋冬净色打底裤 高腰修身小脚长裤","goods_sn":"354162","goods_type":1,"id":13566,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"354162,SANFU,女装,下装,流行,打底裤,韩国斜","l_img":"http://img.sanfu.com/img/goods/list/201602191816175402.jpg","m_goods_id":0,"mb_price":69,"model":"12617#","num":429,"number":429,"pattern":"62.1","pf_price":69,"s_img":"http://m.sanfu.com/img/cp2_201601191443331794.jpg","sc_price":69,"search_words":"","season":"","shelf_time":1456566139,"shelf_timeStr":"2016-02-27 17:42:19","smallpic":"","sort_id":109,"start_time":69,"start_timeStr":"1970-01-01 08:01:09"},"id":259259,"img":"http://img.sanfu.com/img/goods/list/201602191816175402.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"354162"},{"goods":{"addtime":139,"addtimeStr":"1970-01-01 08:02:19","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":64,"description":"10.0","genre_id":139,"goods_name":"三福2016女秋破洞牛仔裤 弹力修身百搭小脚休闲裤","goods_sn":"361870","goods_type":5,"id":1254719,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"361870,SANFU,女装,下装,时尚,牛仔裤,牛仔料","l_img":"http://img.sanfu.com/img/goods/list/201608231615190168.jpg","m_goods_id":0,"mb_price":139,"model":"16429#破洞","num":52,"number":52,"pattern":"125.1","pf_price":139,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608231614577419.jpg","sc_price":139,"search_words":"","season":"","shelf_time":1471940160,"shelf_timeStr":"2016-08-23 16:16:00","smallpic":"","sort_id":110,"start_time":139,"start_timeStr":"1970-01-01 08:02:19"},"id":259260,"img":"http://img.sanfu.com/img/goods/list/201608231615190168.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"361870"},{"goods":null,"id":259261,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"110"},{"goods":null,"id":259262,"img":"http://img.sanfu.com/img/index_new/banner.jpg","in_use":1,"list":[],"module_id":323,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=219157&cpp=0"}],"serial":1,"template_id":102},{"cname":"","id":324,"in_use":1,"list":[{"goods":null,"id":259263,"img":"http://img.sanfu.com/img/template/201608121707107654.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"147"},{"goods":{"addtime":39,"addtimeStr":"1970-01-01 08:00:39","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":1401187,"goods_name":"露兰姬娜经典精华液护肤透明质酸补水保湿原液（2瓶包邮再减8元3瓶减15）","goods_sn":"330942","goods_type":5,"id":12602,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"330942,SANFU,配饰,配饰,经典,护肤,精华液","l_img":"http://www.sanfu.com/upload/index3/201511050956428380.jpg","m_goods_id":0,"mb_price":39,"model":"透明质酸补水保湿原液","num":385,"number":385,"pattern":"35.1","pf_price":39,"s_img":"http://m.sanfu.com/img/cp2_201511050954256788.jpg","sc_price":39,"search_words":"","season":"","shelf_time":1474442150,"shelf_timeStr":"2016-09-21 15:15:50","smallpic":"","sort_id":194,"start_time":39,"start_timeStr":"1970-01-01 08:00:39"},"id":259264,"img":"http://www.sanfu.com/upload/index3/201511050956428380.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"330942"},{"goods":{"addtime":115,"addtimeStr":"1970-01-01 08:01:55","brand_id":62,"c_img":"","category_id":0,"cats_name":"配饰>>包袋","class_id":65,"description":"10.0","genre_id":332,"goods_name":"三福2016女四季新韩版彩虹印花混款肩包 时尚学院旅行PU包","goods_sn":"344387","goods_type":5,"id":10247,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":1,"isvalid":1,"keywords":"344387,三福,配饰,配饰,流行,包袋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609051503282095.jpg","m_goods_id":0,"mb_price":115,"model":"学院/彩虹混277","num":263,"number":263,"pattern":"103.5","pf_price":115,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609201441591119.jpg","sc_price":115,"search_words":"","season":"","shelf_time":1474354255,"shelf_timeStr":"2016-09-20 14:50:55","smallpic":"index_pic/2015-05/150505142519vs.jpg","sort_id":330,"start_time":115,"start_timeStr":"1970-01-01 08:01:55"},"id":259265,"img":"http://img.sanfu.com/img/goods/list/201609051503282095.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"344387"},{"goods":{"addtime":65,"addtimeStr":"1970-01-01 08:01:05","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"9.4","genre_id":180,"goods_name":"三福2016女秋英伦学院系带平跟休闲鞋 圆头PU单鞋","goods_sn":"754619","goods_type":5,"id":1454777,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"754619,三福,配饰,配饰,流行,鞋,PU","l_img":"http://img.sanfu.com/img/goods/list/201609061519586483.jpg","m_goods_id":0,"mb_price":65,"model":"学院/6188小白鞋D","num":244,"number":244,"pattern":"58.5","pf_price":65,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609061516183435.jpg","sc_price":69,"search_words":"","season":"","shelf_time":1473149767,"shelf_timeStr":"2016-09-06 16:16:07","smallpic":"","sort_id":147,"start_time":69,"start_timeStr":"1970-01-01 08:01:09"},"id":259266,"img":"http://img.sanfu.com/img/goods/list/201609061519586483.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"754619"},{"goods":{"addtime":10,"addtimeStr":"1970-01-01 08:00:10","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":1401186,"goods_name":"伊诗婷红酒染唇液 色泽饱满质地轻盈持久不沾杯（3件包邮）","goods_sn":"359729","goods_type":5,"id":694708,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"359729,三福,配饰,配饰,经典,彩妆,染唇液","l_img":"http://img.sanfu.com/img/goods/list/201608190939586459.jpg","m_goods_id":0,"mb_price":10,"model":"1982红酒染唇液","num":3868,"number":3868,"pattern":"9.0","pf_price":10,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608191013319562.jpg","sc_price":10,"search_words":"","season":"","shelf_time":1471509446,"shelf_timeStr":"2016-08-18 16:37:26","smallpic":"","sort_id":194,"start_time":10,"start_timeStr":"1970-01-01 08:00:10"},"id":259267,"img":"http://img.sanfu.com/img/goods/list/201608190939586459.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"359729"},{"goods":{"addtime":59,"addtimeStr":"1970-01-01 08:00:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":65,"description":"10.0","genre_id":332,"goods_name":"三福2016双撞色休闲双肩包 百搭学院风背包旅行包","goods_sn":"360359","goods_type":5,"id":994733,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"360359,三福,配饰,配饰,流行,包袋,600D","l_img":"http://img.sanfu.com/img/goods/list/201607271055325415.jpg","m_goods_id":0,"mb_price":59,"model":"学院/A90背包","num":147,"number":147,"pattern":"53.1","pf_price":59,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1607/middle201607271054152095.jpg","sc_price":59,"search_words":"","season":"","shelf_time":1471483089,"shelf_timeStr":"2016-08-18 09:18:09","smallpic":"","sort_id":330,"start_time":59,"start_timeStr":"1970-01-01 08:00:59"},"id":259268,"img":"http://img.sanfu.com/img/goods/list/201607271055325415.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"360359"},{"goods":null,"id":259269,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":1,"type_value":"https://meidian.play.m.jaeapp.com/?iid=297907&cpp=0"},{"goods":null,"id":259270,"img":"http://img.sanfu.com/img/template/201606041600127664.jpg","in_use":1,"list":[],"module_id":324,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"71"}],"serial":1,"template_id":102},{"cname":"","id":325,"in_use":1,"list":[{"goods":null,"id":259271,"img":"http://img.sanfu.com/img/template/201608121707177924.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"157"},{"goods":{"addtime":33,"addtimeStr":"1970-01-01 08:00:33","brand_id":60,"c_img":"","category_id":0,"cats_name":"内衣>>文胸","class_id":67,"description":"10.0","genre_id":220,"goods_name":"圣绯蕊 2/1V型聚拢文胸性感蕾丝 调整型内衣 净色纯洁","goods_sn":"324400","goods_type":5,"id":6432,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":1,"isvalid":1,"keywords":"324400,SANFRAN,内衣,上装,流行,文胸,蕾丝","l_img":"http://img.sanfu.com/img/goods/list/201604071452222495.jpg","m_goods_id":0,"mb_price":33,"model":"3029雏菊花蕾丝半杯","num":500,"number":500,"pattern":"29.7","pf_price":33,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1604/middle201604071448209534.jpg","sc_price":33,"search_words":"","season":"","shelf_time":1464081163,"shelf_timeStr":"2016-05-24 17:12:43","smallpic":"index_pic/2014-02/140213163023pp.jpg","sort_id":157,"start_time":33,"start_timeStr":"1970-01-01 08:00:33"},"id":259272,"img":"http://img.sanfu.com/img/goods/list/201604071452222495.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"324400"},{"goods":{"addtime":12,"addtimeStr":"1970-01-01 08:00:12","brand_id":60,"c_img":"","category_id":0,"cats_name":"内衣>>女内裤","class_id":67,"description":"10.0","genre_id":164,"goods_name":"圣绯蕊 女混花满版印花内裤 舒适冰丝半平角底裤","goods_sn":"296614","goods_type":1,"id":4958,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":1,"isvalid":1,"keywords":"296614,SANFRAN,内衣,下装,经典,女内裤,冰丝","l_img":"http://www.sanfu.com/upload/index_pic/2015-03/150303155759wg.jpg","m_goods_id":0,"mb_price":12,"model":"5519冰丝印花","num":522,"number":522,"pattern":"10.8","pf_price":12,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1608/middle201608200943291122.jpg","sc_price":12,"search_words":"","season":"","shelf_time":1464081163,"shelf_timeStr":"2016-05-24 17:12:43","smallpic":"index_pic/2015-03/150303155759wg.jpg","sort_id":159,"start_time":12,"start_timeStr":"1970-01-01 08:00:12"},"id":259273,"img":"http://www.sanfu.com/upload/index_pic/2015-03/150303155759wg.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"296614"},{"goods":{"addtime":63,"addtimeStr":"1970-01-01 08:01:03","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":220,"goods_name":"圣绯蕊无痕拉丝薄B杯聚拢型文胸 净色半件围杯型内衣","goods_sn":"351596","goods_type":5,"id":14481,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"351596,SANFRAN,内衣,上装,流行,文胸,无痕","l_img":"http://img.sanfu.com/img/goods/list/201604081446384886.jpg","m_goods_id":0,"mb_price":63,"model":"3019无痕拉丝OEM","num":863,"number":863,"pattern":"56.7","pf_price":63,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1604/middle201604081437123175.jpg","sc_price":63,"search_words":"","season":"","shelf_time":1460098311,"shelf_timeStr":"2016-04-08 14:51:51","smallpic":"","sort_id":157,"start_time":63,"start_timeStr":"1970-01-01 08:01:03"},"id":259274,"img":"http://img.sanfu.com/img/goods/list/201604081446384886.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"351596"},{"goods":{"addtime":59,"addtimeStr":"1970-01-01 08:00:59","brand_id":0,"c_img":"","category_id":0,"cats_name":"","class_id":67,"description":"10.0","genre_id":220,"goods_name":"专柜同款 无痕B杯 3/4V型聚拢无钢圈文胸性感隐形印花混款","goods_sn":"346370","goods_type":5,"id":14208,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":0,"isvalid":1,"keywords":"346370,SANFRAN,内衣,上装,流行,文胸,无痕","l_img":"http://img.sanfu.com/img/goods/list/201609211350543657.jpg","m_goods_id":0,"mb_price":59,"model":"3005无痕印花OEM","num":648,"number":648,"pattern":"53.1","pf_price":59,"s_img":"http://img.sanfu.com/img/goods/photos/middle/1609/middle201609211352392854.jpg","sc_price":59,"search_words":"","season":"","shelf_time":1474251155,"shelf_timeStr":"2016-09-19 10:12:35","smallpic":"","sort_id":157,"start_time":59,"start_timeStr":"1970-01-01 08:00:59"},"id":259275,"img":"http://img.sanfu.com/img/goods/list/201609211350543657.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"346370"},{"goods":{"addtime":10,"addtimeStr":"1970-01-01 08:00:10","brand_id":60,"c_img":"","category_id":0,"cats_name":"内衣>>女内裤","class_id":67,"description":"10.0","genre_id":164,"goods_name":"圣绯蕊圣绯蕊春夏性感提臀 低腰女士内裤 半平角舒适内裤","goods_sn":"333398","goods_type":1,"id":10952,"img_list":[],"is_best":0,"is_disc":0,"is_hot":0,"is_new":1,"isvalid":1,"keywords":"SANFRAN,内衣,下装,流行,女内裤,人棉","l_img":"http://www.sanfu.com/upload/index_pic/2015-07/150710152503od.jpg","m_goods_id":0,"mb_price":10,"model":"8018净色","num":615,"number":615,"pattern":"9.0","pf_price":10,"s_img":"http://www.sanfu.com/upload/photobase/middle/2015-07/150710152623th_m.jpg","sc_price":10,"search_words":"","season":"","shelf_time":1464081162,"shelf_timeStr":"2016-05-24 17:12:42","smallpic":"index_pic/2015-07/150710152503od.jpg","sort_id":159,"start_time":10,"start_timeStr":"1970-01-01 08:00:10"},"id":259276,"img":"http://www.sanfu.com/upload/index_pic/2015-07/150710152503od.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":2,"type_value":"333398"},{"goods":null,"id":259277,"img":"http://img.sanfu.com/img/index_new/more.png","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"164"},{"goods":null,"id":259278,"img":"http://img.sanfu.com/img/template/201609141510415815.jpg","in_use":1,"list":[],"module_id":325,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"107"}],"serial":1,"template_id":102}]
      * nav : {"cname":"","id":255,"in_use":1,"list":[{"goods":null,"id":18186,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/index.html","serial":1,"title":"男生 BOYS","type_key":4,"type_value":"boyIndex"},{"goods":null,"id":18187,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/girls.html","serial":1,"title":"女生 GIRLS","type_key":4,"type_value":"girlIndex"},{"goods":null,"id":18188,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"饰品 ACCESSORIES","type_key":3,"type_value":"65"},{"goods":null,"id":18190,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"折扣专区 SALL","type_key":3,"type_value":"481192"},{"goods":null,"id":18191,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"时尚优选 PLUS","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":18192,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"形象学堂 CLASSROOM","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"},{"goods":null,"id":18193,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"发现 FOUND","type_key":1,"type_value":"http://m.sanfu.com/community/showCommunity.htm"}],"serial":1,"template_id":17}
-     * countdown : 346638
+     * countdown : 343041
      */
 
-    private MsgBean msg;
-    private String key;
-    private String sign;
-    private int length;
+    private int countdown;
+    /**
+     * cname :
+     * id : 314
+     * in_use : 1
+     * list : [{"goods":null,"id":259467,"img":"http://img.sanfu.com/img/template/201610092112387709.jpg","in_use":1,"list":[],"module_id":314,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"236"}]
+     * serial : 1
+     * template_id : 102
+     */
 
-    public boolean isSuccess() {
-        return success;
+    private List<IndexBean> index;
+
+    public NavBean getNav() {
+        return nav;
     }
 
-    public void setSuccess(boolean success) {
-        this.success = success;
+    public void setNav(NavBean nav) {
+        this.nav = nav;
     }
 
-    public MsgBean getMsg() {
-        return msg;
+    public int getCountdown() {
+        return countdown;
     }
 
-    public void setMsg(MsgBean msg) {
-        this.msg = msg;
+    public void setCountdown(int countdown) {
+        this.countdown = countdown;
     }
 
-    public String getKey() {
-        return key;
+    public List<IndexBean> getIndex() {
+        return index;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public void setIndex(List<IndexBean> index) {
+        this.index = index;
     }
 
-    public String getSign() {
-        return sign;
-    }
-
-    public void setSign(String sign) {
-        this.sign = sign;
-    }
-
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public static class MsgBean {
+    public static class NavBean {
+        private String cname;
+        private int id;
+        private int in_use;
+        private int serial;
+        private int template_id;
         /**
-         * cname :
-         * id : 255
+         * goods : null
+         * id : 18186
+         * img :
          * in_use : 1
-         * list : [{"goods":null,"id":18186,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/index.html","serial":1,"title":"男生 BOYS","type_key":4,"type_value":"boyIndex"},{"goods":null,"id":18187,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"/girls.html","serial":1,"title":"女生 GIRLS","type_key":4,"type_value":"girlIndex"},{"goods":null,"id":18188,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"饰品 ACCESSORIES","type_key":3,"type_value":"65"},{"goods":null,"id":18190,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"折扣专区 SALL","type_key":3,"type_value":"481192"},{"goods":null,"id":18191,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"时尚优选 PLUS","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=2"},{"goods":null,"id":18192,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"形象学堂 CLASSROOM","type_key":1,"type_value":"http://m.sanfu.com/goods/bestlist.htm?ajax=3"},{"goods":null,"id":18193,"img":"","in_use":1,"list":[],"module_id":255,"rurl":"","serial":1,"title":"发现 FOUND","type_key":1,"type_value":"http://m.sanfu.com/community/showCommunity.htm"}]
+         * list : []
+         * module_id : 255
+         * rurl : /index.html
          * serial : 1
-         * template_id : 17
+         * title : 男生 BOYS
+         * type_key : 4
+         * type_value : boyIndex
          */
 
-        private NavBean nav;
-        private int countdown;
-        /**
-         * cname :
-         * id : 302
-         * in_use : 1
-         * list : [{"goods":null,"id":259552,"img":"http://img.sanfu.com/img/template/201610092112245244.jpg","in_use":1,"list":[],"module_id":302,"rurl":"","serial":1,"title":"","type_key":3,"type_value":"277"}]
-         * serial : 1
-         * template_id : 101
-         */
+        private List<ListBean> list;
 
-        private List<IndexBean> index;
-
-        public NavBean getNav() {
-            return nav;
+        public String getCname() {
+            return cname;
         }
 
-        public void setNav(NavBean nav) {
-            this.nav = nav;
+        public void setCname(String cname) {
+            this.cname = cname;
         }
 
-        public int getCountdown() {
-            return countdown;
+        public int getId() {
+            return id;
         }
 
-        public void setCountdown(int countdown) {
-            this.countdown = countdown;
+        public void setId(int id) {
+            this.id = id;
         }
 
-        public List<IndexBean> getIndex() {
-            return index;
+        public int getIn_use() {
+            return in_use;
         }
 
-        public void setIndex(List<IndexBean> index) {
-            this.index = index;
+        public void setIn_use(int in_use) {
+            this.in_use = in_use;
         }
 
-        public static class NavBean {
-            private String cname;
+        public int getSerial() {
+            return serial;
+        }
+
+        public void setSerial(int serial) {
+            this.serial = serial;
+        }
+
+        public int getTemplate_id() {
+            return template_id;
+        }
+
+        public void setTemplate_id(int template_id) {
+            this.template_id = template_id;
+        }
+
+        public List<ListBean> getList() {
+            return list;
+        }
+
+        public void setList(List<ListBean> list) {
+            this.list = list;
+        }
+
+        public static class ListBean {
+            private Object goods;
             private int id;
+            private String img;
             private int in_use;
+            private int module_id;
+            private String rurl;
             private int serial;
-            private int template_id;
-            /**
-             * goods : null
-             * id : 18186
-             * img :
-             * in_use : 1
-             * list : []
-             * module_id : 255
-             * rurl : /index.html
-             * serial : 1
-             * title : 男生 BOYS
-             * type_key : 4
-             * type_value : boyIndex
-             */
+            private String title;
+            private int type_key;
+            private String type_value;
+            private List<?> list;
 
-            private List<ListBean> list;
-
-            public String getCname() {
-                return cname;
+            public Object getGoods() {
+                return goods;
             }
 
-            public void setCname(String cname) {
-                this.cname = cname;
+            public void setGoods(Object goods) {
+                this.goods = goods;
             }
 
             public int getId() {
@@ -153,12 +160,36 @@ public class Datas {
                 this.id = id;
             }
 
+            public String getImg() {
+                return img;
+            }
+
+            public void setImg(String img) {
+                this.img = img;
+            }
+
             public int getIn_use() {
                 return in_use;
             }
 
             public void setIn_use(int in_use) {
                 this.in_use = in_use;
+            }
+
+            public int getModule_id() {
+                return module_id;
+            }
+
+            public void setModule_id(int module_id) {
+                this.module_id = module_id;
+            }
+
+            public String getRurl() {
+                return rurl;
+            }
+
+            public void setRurl(String rurl) {
+                this.rurl = rurl;
             }
 
             public int getSerial() {
@@ -169,153 +200,129 @@ public class Datas {
                 this.serial = serial;
             }
 
-            public int getTemplate_id() {
-                return template_id;
+            public String getTitle() {
+                return title;
             }
 
-            public void setTemplate_id(int template_id) {
-                this.template_id = template_id;
+            public void setTitle(String title) {
+                this.title = title;
             }
 
-            public List<ListBean> getList() {
+            public int getType_key() {
+                return type_key;
+            }
+
+            public void setType_key(int type_key) {
+                this.type_key = type_key;
+            }
+
+            public String getType_value() {
+                return type_value;
+            }
+
+            public void setType_value(String type_value) {
+                this.type_value = type_value;
+            }
+
+            public List<?> getList() {
                 return list;
             }
 
-            public void setList(List<ListBean> list) {
+            public void setList(List<?> list) {
                 this.list = list;
             }
+        }
+    }
 
-            public static class ListBean {
-                private Object goods;
-                private int id;
-                private String img;
-                private int in_use;
-                private int module_id;
-                private String rurl;
-                private int serial;
-                private String title;
-                private int type_key;
-                private String type_value;
-                private List<?> list;
+    public static class IndexBean {
+        private String cname;
+        private int id;
+        private int in_use;
+        private int serial;
+        private int template_id;
+        /**
+         * goods : null
+         * id : 259467
+         * img : http://img.sanfu.com/img/template/201610092112387709.jpg
+         * in_use : 1
+         * list : []
+         * module_id : 314
+         * rurl :
+         * serial : 1
+         * title :
+         * type_key : 3
+         * type_value : 236
+         */
 
-                public Object getGoods() {
-                    return goods;
-                }
+        private List<ListBean> list;
 
-                public void setGoods(Object goods) {
-                    this.goods = goods;
-                }
-
-                public int getId() {
-                    return id;
-                }
-
-                public void setId(int id) {
-                    this.id = id;
-                }
-
-                public String getImg() {
-                    return img;
-                }
-
-                public void setImg(String img) {
-                    this.img = img;
-                }
-
-                public int getIn_use() {
-                    return in_use;
-                }
-
-                public void setIn_use(int in_use) {
-                    this.in_use = in_use;
-                }
-
-                public int getModule_id() {
-                    return module_id;
-                }
-
-                public void setModule_id(int module_id) {
-                    this.module_id = module_id;
-                }
-
-                public String getRurl() {
-                    return rurl;
-                }
-
-                public void setRurl(String rurl) {
-                    this.rurl = rurl;
-                }
-
-                public int getSerial() {
-                    return serial;
-                }
-
-                public void setSerial(int serial) {
-                    this.serial = serial;
-                }
-
-                public String getTitle() {
-                    return title;
-                }
-
-                public void setTitle(String title) {
-                    this.title = title;
-                }
-
-                public int getType_key() {
-                    return type_key;
-                }
-
-                public void setType_key(int type_key) {
-                    this.type_key = type_key;
-                }
-
-                public String getType_value() {
-                    return type_value;
-                }
-
-                public void setType_value(String type_value) {
-                    this.type_value = type_value;
-                }
-
-                public List<?> getList() {
-                    return list;
-                }
-
-                public void setList(List<?> list) {
-                    this.list = list;
-                }
-            }
+        public String getCname() {
+            return cname;
         }
 
-        public static class IndexBean {
-            private String cname;
+        public void setCname(String cname) {
+            this.cname = cname;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public int getIn_use() {
+            return in_use;
+        }
+
+        public void setIn_use(int in_use) {
+            this.in_use = in_use;
+        }
+
+        public int getSerial() {
+            return serial;
+        }
+
+        public void setSerial(int serial) {
+            this.serial = serial;
+        }
+
+        public int getTemplate_id() {
+            return template_id;
+        }
+
+        public void setTemplate_id(int template_id) {
+            this.template_id = template_id;
+        }
+
+        public List<ListBean> getList() {
+            return list;
+        }
+
+        public void setList(List<ListBean> list) {
+            this.list = list;
+        }
+
+        public static class ListBean {
+            private Object goods;
             private int id;
+            private String img;
             private int in_use;
+            private int module_id;
+            private String rurl;
             private int serial;
-            private int template_id;
-            /**
-             * goods : null
-             * id : 259552
-             * img : http://img.sanfu.com/img/template/201610092112245244.jpg
-             * in_use : 1
-             * list : []
-             * module_id : 302
-             * rurl :
-             * serial : 1
-             * title :
-             * type_key : 3
-             * type_value : 277
-             */
+            private String title;
+            private int type_key;
+            private String type_value;
+            private List<?> list;
 
-            private List<ListBean> list;
-
-            public String getCname() {
-                return cname;
+            public Object getGoods() {
+                return goods;
             }
 
-            public void setCname(String cname) {
-                this.cname = cname;
+            public void setGoods(Object goods) {
+                this.goods = goods;
             }
 
             public int getId() {
@@ -326,12 +333,36 @@ public class Datas {
                 this.id = id;
             }
 
+            public String getImg() {
+                return img;
+            }
+
+            public void setImg(String img) {
+                this.img = img;
+            }
+
             public int getIn_use() {
                 return in_use;
             }
 
             public void setIn_use(int in_use) {
                 this.in_use = in_use;
+            }
+
+            public int getModule_id() {
+                return module_id;
+            }
+
+            public void setModule_id(int module_id) {
+                this.module_id = module_id;
+            }
+
+            public String getRurl() {
+                return rurl;
+            }
+
+            public void setRurl(String rurl) {
+                this.rurl = rurl;
             }
 
             public int getSerial() {
@@ -342,122 +373,36 @@ public class Datas {
                 this.serial = serial;
             }
 
-            public int getTemplate_id() {
-                return template_id;
+            public String getTitle() {
+                return title;
             }
 
-            public void setTemplate_id(int template_id) {
-                this.template_id = template_id;
+            public void setTitle(String title) {
+                this.title = title;
             }
 
-            public List<ListBean> getList() {
+            public int getType_key() {
+                return type_key;
+            }
+
+            public void setType_key(int type_key) {
+                this.type_key = type_key;
+            }
+
+            public String getType_value() {
+                return type_value;
+            }
+
+            public void setType_value(String type_value) {
+                this.type_value = type_value;
+            }
+
+            public List<?> getList() {
                 return list;
             }
 
-            public void setList(List<ListBean> list) {
+            public void setList(List<?> list) {
                 this.list = list;
-            }
-
-            public static class ListBean {
-                private Object goods;
-                private int id;
-                private String img;
-                private int in_use;
-                private int module_id;
-                private String rurl;
-                private int serial;
-                private String title;
-                private int type_key;
-                private String type_value;
-                private List<?> list;
-
-                public Object getGoods() {
-                    return goods;
-                }
-
-                public void setGoods(Object goods) {
-                    this.goods = goods;
-                }
-
-                public int getId() {
-                    return id;
-                }
-
-                public void setId(int id) {
-                    this.id = id;
-                }
-
-                public String getImg() {
-                    return img;
-                }
-
-                public void setImg(String img) {
-                    this.img = img;
-                }
-
-                public int getIn_use() {
-                    return in_use;
-                }
-
-                public void setIn_use(int in_use) {
-                    this.in_use = in_use;
-                }
-
-                public int getModule_id() {
-                    return module_id;
-                }
-
-                public void setModule_id(int module_id) {
-                    this.module_id = module_id;
-                }
-
-                public String getRurl() {
-                    return rurl;
-                }
-
-                public void setRurl(String rurl) {
-                    this.rurl = rurl;
-                }
-
-                public int getSerial() {
-                    return serial;
-                }
-
-                public void setSerial(int serial) {
-                    this.serial = serial;
-                }
-
-                public String getTitle() {
-                    return title;
-                }
-
-                public void setTitle(String title) {
-                    this.title = title;
-                }
-
-                public int getType_key() {
-                    return type_key;
-                }
-
-                public void setType_key(int type_key) {
-                    this.type_key = type_key;
-                }
-
-                public String getType_value() {
-                    return type_value;
-                }
-
-                public void setType_value(String type_value) {
-                    this.type_value = type_value;
-                }
-
-                public List<?> getList() {
-                    return list;
-                }
-
-                public void setList(List<?> list) {
-                    this.list = list;
-                }
             }
         }
     }
