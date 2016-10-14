@@ -1,4 +1,4 @@
-package com.example.administrator.aishangsanfu.Utils;
+package Utils;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -22,7 +22,9 @@ public class URLConnHelper {
                 sd.append(s);
             }
             return sd.toString();
-        }catch(Exception e){}
+        }catch(Exception e){
+            e.printStackTrace();
+        }
         finally {
         }
         return null;

@@ -2,16 +2,73 @@ package com.example.administrator.aishangsanfu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.widget.RadioGroup;
 
-import com.example.administrator.aishangsanfu.Datas.Get;
+import Fragment.BaseFragment;
+import Fragment.FrgmentFactory;
+import Fragment.HomeFragment;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity{
+    private Toolbar toolbar;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String mm=Get.getDatas("http://m.sanfu.com/app/goods/index.htm?id=101&version=3&source=1");
-        System.out.println("--data1"+mm);
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, new HomeFragment()).commit();
+        //initSlidingMenu();
+        initFragment();
     }
-}
+    public  void initFragment(){
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                BaseFragment f = null;
+                int j=0;
+                switch (i) {
+                    case R.id.home:
+                        j=0;
+                        f = FrgmentFactory.createFragment(j);
+                        break;
+                    case R.id.category:
+                        j=1;
+                        System.out.println("--"+i);
+                        f = FrgmentFactory.createFragment(j);
+                        break;
+                    case R.id.shop:
+                        j=2;
+                        System.out.println("--"+i);
+                        f = FrgmentFactory.createFragment(j);
+
+                        break;
+                    case R.id.user:
+                        j=3;
+                        System.out.println("--"+i);
+                        f = Fragment.FrgmentFactory.createFragment(j);
+
+                        break;
+
+                }
+                change(f);
+            }
+        });
+
+
+    }
+    public void  change(BaseFragment f ){
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,f).commit();
+    }
+
+
+
+
+
+
+
+    }
