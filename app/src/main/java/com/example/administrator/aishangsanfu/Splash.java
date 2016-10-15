@@ -24,7 +24,6 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-        init();
         inData();
 
     }
@@ -41,30 +40,9 @@ public class Splash extends AppCompatActivity {
                 SortBean sb=JSON.parseObject(s,SortBean.class);
                 SortBean.MsgBean sm=sb.getMsg();
                 sortdatas = (ArrayList<SortBean.MsgBean.CategoryBean>) sm.getCategory();
+                Intent it = new Intent(UIUtils.getContext(), MainActivity.class);
+                startActivity(it);
             }
         }.start();
-    }
-
-    private void init() {
-
-        new Thread() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(5000);
-                    UIUtils.getHandler().post(new Runnable() {
-                        @Override
-                        public void run() {
-                            Intent it = new Intent(UIUtils.getContext(), MainActivity.class);
-                            startActivity(it);
-                        }
-                    });
-
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }.start();
-
     }
 }

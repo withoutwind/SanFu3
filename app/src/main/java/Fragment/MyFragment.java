@@ -76,11 +76,18 @@ public class MyFragment extends Fragment {
         ptrListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
             @Override
             public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
-
+                System.out.println("--ssss111");
+                adapter.notifyDataSetChanged();
+                System.out.println("--ssss");
+                ptrListView.onRefreshComplete();
+                System.out.println("--ssss222");
             }
             @Override
             public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
-
+                adapter.notifyDataSetChanged();
+                System.out.println("--ssss");
+                ptrListView.onRefreshComplete();
+                System.out.println("--ssss222");
             }
         });
         //点击跳转
