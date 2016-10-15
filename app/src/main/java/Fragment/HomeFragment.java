@@ -25,7 +25,7 @@ import static Utils.Constans.indexBeanList;
  */
 
 public class HomeFragment extends BaseFragment {
-    private Toolbar toolbar;
+   /* private Toolbar toolbar;
     private DrawerLayout drawer;
     private List<String> list = new ArrayList<String>();
     private RecyclerView recyclerView;
@@ -91,7 +91,7 @@ public class HomeFragment extends BaseFragment {
     }
 }
 
-/*
+*//*
     private void initView() {
         drawer = (DrawerLayout) v.findViewById(R.id.drawer);
         toolbar = (Toolbar) v.findViewById(R.id.first_tb);
@@ -155,4 +155,6 @@ public class HomeFragment extends BaseFragment {
             list.add(String.format(Locale.CHINA,"第%03d条数据",i));
         }
     }
-}*/
+}*//*
+*/
+}

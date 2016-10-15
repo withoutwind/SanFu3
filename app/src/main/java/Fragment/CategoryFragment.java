@@ -21,15 +21,16 @@ import org.xutils.x;
 
 import java.util.ArrayList;
 
-import Datas.Datas2;
+import Bean.SortBean;
 import MyAdapters.SortMyAdapter;
+
+import static Utils.Constans.sortdatas;
 
 /**
  * Created by Administrator on 2016/10/12.
  */
 
 public class CategoryFragment extends BaseFragment implements AdapterView.OnItemClickListener{
-    private ArrayList<Datas2.MsgBean.CategoryBean> datas=new ArrayList<>();
     private ArrayList<Fragment> fdatas=new ArrayList<>();
     private ListView listView;
     private SortMyAdapter adapter;
@@ -48,60 +49,22 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.sortfragment,null);
-        initDatas();
+        //initDatas();
+        initView();
         return view;
     }
-
-    private void initDatas(){
-
-        RequestParams params =new RequestParams("http://m.sanfu.com/app/goods/sort.htm?source=1&version=1");
-        x.http().get(params, new Callback.CommonCallback<String>() {
-            @Override
-            public void onSuccess(String s) {
-                JSONObject jj= JSON.parseObject(s);
-                String root=jj.getString("msg");
-                JSONObject jb= JSON.parseObject(root);
-                String s1=jb.getString("category");
-                JSONArray jsonArray = JSON.parseArray(s1);
-                for (Object o : jsonArray) {
-                    Datas2.MsgBean.CategoryBean n = JSON.parseObject(o.toString(), Datas2.MsgBean.CategoryBean.class);
-                    datas.add(n);
-                }
-                //EventBus.getDefault().post(datas.get(0));
-                for (int i = 0; i < datas.size(); i++) {
-                    myFragment=new MyFragment();
-                    fdatas.add(myFragment);
-                }
-                initView();
-            }
-            @Override
-            public void onError(Throwable throwable, boolean b) {
-            }
-            @Override
-            public void onCancelled(CancelledException e) {
-            }
-            @Override
-            public void onFinished() {
-
-            }
-        });
-
-    }
-
-
-
     /**
      * 初始化view
      */
     private void initView() {
         listView = (ListView)view.findViewById(R.id.listview);
         listView.setDivider(null);
-        adapter = new SortMyAdapter(datas);
+        adapter = new SortMyAdapter(sortdatas);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
         //创建MyFragment对象
         myFragment = new MyFragment();
-        EventBus.getDefault().post(datas.get(0));
+        EventBus.getDefault().post(sortdatas.get(0));
         toFragment(myFragment);
     }
 
@@ -114,7 +77,7 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
         adapter.notifyDataSetChanged();
         myFragment = new MyFragment();
         toFragment(myFragment);
-        EventBus.getDefault().post(datas.get(position));
+        EventBus.getDefault().post(sortdatas.get(position));
 
 
 
