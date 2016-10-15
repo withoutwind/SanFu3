@@ -12,7 +12,7 @@ public class Constans {
 
     public static String homeStr = "http://m.sanfu.com/app/goods/index.htm?id=101&version=3&source=1";
 
-    public static List<HomeBean.MsgBean.IndexBean>  indexBeanList ;
+    public static List<HomeBean.MsgBean.IndexBean> indexBeanList ;
 
     public static String getHomeUrl(String id){
         String url="http://m.sanfu.com/app/goods/index.htm?id="+id+"&version=3&source=1";
