@@ -50,7 +50,9 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.sortfragment,null);
         //initDatas();
-        initView();
+        if (sortdatas!=null){
+            initView();
+        }
         return view;
     }
     /**
