@@ -3,11 +3,11 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/first_tb"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-         >
+        android:layout_height="50dp">
        <RadioButton
            android:layout_height="30dp"
            android:background="#ffffff"
@@ -23,160 +23,65 @@
             android:src="@drawable/home_page_logo"
             android:layout_gravity="center_horizontal|bottom"/>
     </android.support.v7.widget.Toolbar>
+
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent">
         <LinearLayout
-            android:id="@+id/home_first_LinearLayout"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:orientation="vertical">
-            <ImageView
-                android:id="@+id/home_one_imageview"
-                android:layout_height="250dp"
-                android:layout_width="match_parent" />
-            <include layout="@layout/home_sceond_linearlayout"/>
-            <include layout="@layout/home_third_linearlayout"/>
-            <include layout="@layout/home_four_linearlayout"/>
-            <ImageView
-                android:id="@+id/home_two_imageview"
-                android:layout_height="60dp"
-                android:layout_width="match_parent"
-                android:src="@color/colorAccent"/>
-            <include layout="@layout/home_five_linearlayout"/>
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
 
-            <ImageView
-                android:id="@+id/home_four_imageview"
-                android:layout_height="180dp"
-                android:layout_width="match_parent"
-                android:src="@mipmap/ic_launcher" />
-            <ImageView
-                android:id="@+id/home_five_imageview"
-                android:layout_height="60dp"
-                android:layout_width="match_parent"
-                android:src="@mipmap/ic_launcher" />
-            <include layout="@layout/home_six_linearlayout"/>
-            <include layout="@layout/home_seven_linearlayout"/>
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/home_recycler"
-                android:layout_height="wrap_content"
-                android:layout_width="100dp">
-                </android.support.v7.widget.RecyclerView>
-            <ImageView
-                 android:id="@+id/home_six_imageview"
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:src="@mipmap/ic_launcher"/>
-
-
-
-            </LinearLayout>
-
-        </ScrollView>
-
-
-
-
-    <android.support.v4.widget.DrawerLayout
-        android:id="@+id/drawer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-        <FrameLayout
-            android:layout_width="120dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:background="#ffffff" >
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-            <Button
-                android:id="@+id/drawer_Button1"
-                android:onClick="cate"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="男装"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-              />
-            <Button
-                android:id="@+id/drawer_Button2"
-                android:onClick="cate"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="女装"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-               />
-            <Button
-                android:id="@+id/drawer_Button3"
-                android:onClick="cate"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="饰品"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-               />
-                <Button
-                    android:id="@+id/drawer_Button4"
-                    android:onClick="cate"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="折扣专区"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-               />
-                <Button
-                    android:id="@+id/drawer_Button5"
-                    android:onClick="cate"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="时尚优选"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-               />
-                <Button
-                    android:id="@+id/drawer_Button6"
-                    android:onClick="cate"
-                   android:layout_height="wrap_content"
-                   android:layout_width="match_parent"
-                   android:text="形象学堂"
-                   android:gravity="center"
-                   android:textSize="20dp"
-                   android:background="#ffffff"
-                   android:textColor="@color/radiobutton_color"
-               />
-                <Button
-                    android:id="@+id/drawer_Button7"
-                    android:onClick="cate"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                android:text="时尚之窗"
-                android:gravity="center"
-                android:textSize="20dp"
-                android:background="#ffffff"
-                android:textColor="@color/radiobutton_color"
-               />
-            </LinearLayout>
-        </FrameLayout>
+                    android:paddingTop="10dp"
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent">
+                <ImageView
+                     android:id="@+id/home_imagview_one"
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                    android:scaleType="fitXY"/>
+                </LinearLayout>
 
-    </android.support.v4.widget.DrawerLayout>
+               <include layout="@layout/home_sceond_linearlayout"/>
+                <MyView.NoScrollGridView
+                     android:id="@+id/home_noGridView1"
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:numColumns="4"
+                     android:scrollbars="none" />
+               <include layout="@layout/home_four_linearlayout"/>
+               <ImageView
+                     android:paddingLeft="5dp"
+                     android:id="@+id/home_imagview_two"
+                     android:layout_height="70dp"
+                     android:layout_width="match_parent"/>
+               <MyView.NoScrollGridView
+                      android:id="@+id/home_noGridView2"
+                      android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:numColumns="3"
+                      android:scrollbars="none" />
+               <ImageView
+                      android:id="@+id/home_imagview_three"
+                      android:layout_height="70dp"
+                      android:layout_width="wrap_content" />
+               <ImageView
+                      android:id="@+id/home_imagview_four"
+                      android:layout_height="150dp"
+                      android:layout_width="wrap_content" />
+               <ImageView
+                      android:id="@+id/home_imagview_five"
+                      android:layout_height="70dp"
+                      android:layout_width="wrap_content" />
+               <include layout="@layout/home_six_linearlayout"/>
 
-    <ImageView
-        android:id="@+id/home_three_imageview"
-        android:layout_height="60dp"
-        android:layout_width="match_parent"
-        android:src="@mipmap/ic_launcher" />
+
+
+           </LinearLayout>
+            </ScrollView>
+
 
 </LinearLayout>

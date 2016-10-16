@@ -10,7 +10,7 @@ import Bean.HomeBean;
 
 public class Constans {
 
-    public static String homeStr = "http://m.sanfu.com/app/goods/index.htm?id=101&version=3&source=1";
+    public static String homeStr = "http://m.sanfu.com/app/goods/index.htm?id=101&version=3&source=1 ";
 
     public static List<HomeBean.MsgBean.IndexBean> indexBeanList ;
 
