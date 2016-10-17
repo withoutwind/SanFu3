@@ -2,13 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <!--ptr:ptrAnimationStyle="flip"  flip:翻转  rotate:旋转-->
+    <!--ptr:ptrShowIndicator="true"  右上角 右下角出现箭头-->
+    <!--ptr:ptrDrawable=“” 上拉下拉图标-->
+    <!--ptr:ptrHeaderBackground=""  上拉下拉时 头部的背景色-->
     <com.handmark.pulltorefresh.library.PullToRefreshListView
         android:id="@+id/pulltolist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="#00000000"
-        android:dividerHeight="20dp">
+        android:dividerHeight="20dp"
+        ptr:ptrShowIndicator="false"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrDrawable="@drawable/item_test"
+        ptr:ptrHeaderTextColor="#969292"
+        >
 
     </com.handmark.pulltorefresh.library.PullToRefreshListView>
 </LinearLayout>

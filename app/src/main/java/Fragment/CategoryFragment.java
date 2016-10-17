@@ -31,10 +31,6 @@ import static Utils.Constans.sortdatas;
  */
 
 public class CategoryFragment extends BaseFragment implements AdapterView.OnItemClickListener{
-<<<<<<< HEAD
-   private ArrayList<Datas2.MsgBean.CategoryBean> datas=new ArrayList<>();
-=======
->>>>>>> github3/master
     private ArrayList<Fragment> fdatas=new ArrayList<>();
     private ListView listView;
     private SortMyAdapter adapter;
@@ -54,57 +50,14 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.sortfragment,null);
         //initDatas();
-        initView();
+        if (sortdatas!=null){
+            initView();
+        }
         return view;
     }
-<<<<<<< HEAD
-
-    private void initDatas(){
-
-        RequestParams params =new RequestParams("http://m.sanfu.com/app/goods/sort.htm?source=1&version=1");
-        x.http().get(params, new Callback.CommonCallback<String>() {
-            @Override
-            public void onSuccess(String s) {
-                JSONObject jj= JSON.parseObject(s);
-                String root=jj.getString("msg");
-                JSONObject jb= JSON.parseObject(root);
-                String s1=jb.getString("category");
-                JSONArray jsonArray = JSON.parseArray(s1);
-                for (Object o : jsonArray) {
-                    Datas2.MsgBean.CategoryBean n = JSON.parseObject(o.toString(), Datas2.MsgBean.CategoryBean.class);
-                    datas.add(n);
-                }
-                //EventBus.getDefault().post(datas.get(0));
-                for (int i = 0; i < datas.size(); i++) {
-                    myFragment=new MyFragment();
-                    fdatas.add(myFragment);
-                }
-                initView();
-            }
-            @Override
-            public void onError(Throwable throwable, boolean b) {
-            }
-            @Override
-            public void onCancelled(CancelledException e) {
-            }
-            @Override
-            public void onFinished() {
-
-            }
-        });
-
-    }
-
-
-
-
-      //初始化view
-
-=======
     /**
      * 初始化view
      */
->>>>>>> github3/master
     private void initView() {
         listView = (ListView)view.findViewById(R.id.listview);
         listView.setDivider(null);
