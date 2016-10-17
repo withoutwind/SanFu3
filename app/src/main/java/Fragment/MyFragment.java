@@ -8,7 +8,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -34,7 +33,7 @@ import Utils.Currenttime;
  * Created by Administrator on 2016/10/12.
  */
 
-public class MyFragment extends Fragment {
+public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
     private String currentTime;
     private SortBean.MsgBean.CategoryBean data;
     private PullToRefreshListView ptrListView;
@@ -51,7 +50,6 @@ public class MyFragment extends Fragment {
         super.onCreate(savedInstanceState);
         width=getActivity().getWindowManager().getDefaultDisplay().getWidth()*18/23;
         height=width*2/5;
-        System.out.println("--width"+width);
 
 
     }
@@ -78,11 +76,10 @@ public class MyFragment extends Fragment {
         ListView listView=ptrListView.getRefreshableView();
         listView.addHeaderView(iv);
         listView.addFooterView(tv);
-        adapter=new PtrListAdapter((ArrayList<SortBean.MsgBean.CategoryBean.List2Bean>) data.getList2());
+        adapter=new PtrListAdapter((ArrayList<SortBean.MsgBean.CategoryBean.List2Bean>) data.getList2(),this);
         ptrListView.setAdapter(adapter);
         currentTime= Currenttime.getCurrenttime();
         onRefresh();
-        onClick();
         return view;
     }
 
@@ -120,15 +117,9 @@ public class MyFragment extends Fragment {
             }
         });
     }
-
-    private void onClick() {
-        ptrListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent it=new Intent(getActivity(), SortjumpActivity.class);
-                startActivity(it);
-            }
-        });
-
+    @Override
+    public void click(View view) {
+        Intent it=new Intent(getActivity(), SortjumpActivity.class);
+        startActivity(it);
     }
 }

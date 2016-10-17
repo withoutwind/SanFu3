@@ -25,6 +25,7 @@ public class HomeGridViewAdapter1 extends BaseAdapter{
         this.context = context;
         layoutInflater=LayoutInflater.from(context);
         this.pathgrid1 = pathgrid1;
+
     }
 
 
@@ -46,6 +47,7 @@ public class HomeGridViewAdapter1 extends BaseAdapter{
     @Override
     public View getView(int position, View convertView, final ViewGroup parent) {
        ViewHolder  vh= null;
+
         if (convertView == null){
             vh = new ViewHolder();
             convertView= View.inflate(parent.getContext(), R.layout.home_nogridviewitem,null);

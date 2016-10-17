@@ -1,18 +1,23 @@
 package MyAdapters;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.administrator.aishangsanfu.R;
+import com.example.administrator.aishangsanfu.SortjumpActivity;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 import Bean.SortBean;
 import MyView.NoScrollGridView;
+import Utils.UIUtils;
 
 /**
  * Created by Administrator on 2016/10/12.
@@ -20,9 +25,14 @@ import MyView.NoScrollGridView;
 
 public class PtrListAdapter extends BaseAdapter {
     private ArrayList<SortBean.MsgBean.CategoryBean.List2Bean> datas;
+    private CallBack mCallback;
+    public interface CallBack{
+        public void click(View view);
+    }
 
-    public PtrListAdapter(ArrayList<SortBean.MsgBean.CategoryBean.List2Bean> datas) {
+    public PtrListAdapter(ArrayList<SortBean.MsgBean.CategoryBean.List2Bean> datas,CallBack mCallback) {
         this.datas = datas;
+        this.mCallback=mCallback;
     }
 
     @Override
@@ -43,6 +53,7 @@ public class PtrListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder vh=null;
+
         if(convertView==null){
             vh=new ViewHolder();
             convertView=View.inflate(parent.getContext(), R.layout.ptrlistview_item,null);
@@ -57,8 +68,17 @@ public class PtrListAdapter extends BaseAdapter {
         vh.tv2.setText("查看详情>");
         vh.gv.setSelector(new ColorDrawable(Color.TRANSPARENT));
         vh.gv.setAdapter(new SortgritAdapter((ArrayList<SortBean.MsgBean.CategoryBean.List2Bean.List3Bean>) datas.get(position).getList2()));
+        vh.gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                mCallback.click(view);
+            }
+        });
         return convertView;
     }
+
+
+
     class ViewHolder{
         TextView tv,tv2;
         NoScrollGridView gv;
