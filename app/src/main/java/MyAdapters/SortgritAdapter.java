@@ -11,7 +11,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import Bean.SortBean;
+import Datas.Datas2;
 import Fragment.MyFragment;
 
 /**
@@ -19,9 +19,9 @@ import Fragment.MyFragment;
  */
 
 public class SortgritAdapter extends BaseAdapter {
-    private ArrayList<SortBean.MsgBean.CategoryBean.List2Bean.List3Bean> datas;
+    private ArrayList<Datas2.MsgBean.CategoryBean.List2Bean.List3Bean> datas;
 
-    public SortgritAdapter(ArrayList<SortBean.MsgBean.CategoryBean.List2Bean.List3Bean> datas) {
+    public SortgritAdapter(ArrayList<Datas2.MsgBean.CategoryBean.List2Bean.List3Bean> datas) {
         this.datas = datas;
     }
 

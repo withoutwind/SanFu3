@@ -11,7 +11,7 @@ import com.example.administrator.aishangsanfu.R;
 
 import java.util.ArrayList;
 
-import Bean.SortBean;
+import Datas.Datas2;
 import MyView.NoScrollGridView;
 
 /**
@@ -19,9 +19,9 @@ import MyView.NoScrollGridView;
  */
 
 public class PtrListAdapter extends BaseAdapter {
-    private ArrayList<SortBean.MsgBean.CategoryBean.List2Bean> datas;
+    private ArrayList<Datas2.MsgBean.CategoryBean.List2Bean> datas;
 
-    public PtrListAdapter(ArrayList<SortBean.MsgBean.CategoryBean.List2Bean> datas) {
+    public PtrListAdapter(ArrayList<Datas2.MsgBean.CategoryBean.List2Bean> datas) {
         this.datas = datas;
     }
 
@@ -56,7 +56,7 @@ public class PtrListAdapter extends BaseAdapter {
         vh.tv.setText(datas.get(position).getName());
         vh.tv2.setText("查看详情>");
         vh.gv.setSelector(new ColorDrawable(Color.TRANSPARENT));
-        vh.gv.setAdapter(new SortgritAdapter((ArrayList<SortBean.MsgBean.CategoryBean.List2Bean.List3Bean>) datas.get(position).getList2()));
+        vh.gv.setAdapter(new SortgritAdapter((ArrayList<Datas2.MsgBean.CategoryBean.List2Bean.List3Bean>) datas.get(position).getList2()));
         return convertView;
     }
     class ViewHolder{

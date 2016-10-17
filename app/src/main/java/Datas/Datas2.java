@@ -1,4 +1,4 @@
-package Bean;
+package Datas;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import java.util.List;
  * Created by Administrator on 2016/10/12.
  */
 
-public class SortBean {
+public class Datas2 {
 
     private MsgBean msg;
 
