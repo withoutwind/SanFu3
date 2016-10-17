@@ -43,17 +43,26 @@ public class SortMyAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
-        convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.listview_item, null);
-        TextView tv = (TextView) convertView.findViewById(R.id.tv);
+        ViewHolder vh=null;
+        if (convertView!=null){
+            vh=new ViewHolder();
+            convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.listview_item, null);
+            vh.tv = (TextView) convertView.findViewById(R.id.tv);
+            convertView.setTag(vh);
+        }else {
+            vh= (ViewHolder) convertView.getTag();
+        }
         mPosition = position;
-        tv.setText(datas.get(position).getName().toString());
+        vh.tv.setText(datas.get(position).getName().toString());
         if (position == CategoryFragment.mPosition) {
             convertView.setBackgroundColor(Color.parseColor("#ffffffff"));
-            tv.setTextColor(Color.parseColor("#ff0033"));
+            vh.tv.setTextColor(Color.parseColor("#ff0033"));
         } else {
             convertView.setBackgroundColor(Color.parseColor("#f4f4f4"));
         }
         return convertView;
+    }
+    class ViewHolder{
+        TextView tv;
     }
 }
