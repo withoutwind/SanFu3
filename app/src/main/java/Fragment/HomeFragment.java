@@ -69,7 +69,6 @@ public class HomeFragment extends BaseFragment {
 
     private void initData() {
         System.out.println("-----" + indexBeanList);
-
         if (indexBeanList != null) {
             System.out.println("--666666666" + pathlist);
             System.out.println("--666666666" + pathgrid1);
