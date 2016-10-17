@@ -29,7 +29,7 @@ import MyAdapters.SortMyAdapter;
  */
 
 public class CategoryFragment extends BaseFragment implements AdapterView.OnItemClickListener{
-   private ArrayList<Datas2.MsgBean.CategoryBean> datas=new ArrayList<>();
+    private ArrayList<Datas2.MsgBean.CategoryBean> datas=new ArrayList<>();
     private ArrayList<Fragment> fdatas=new ArrayList<>();
     private ListView listView;
     private SortMyAdapter adapter;
@@ -90,9 +90,9 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
 
 
 
-
-      //初始化view
-
+    /**
+     * 初始化view
+     */
     private void initView() {
         listView = (ListView)view.findViewById(R.id.listview);
         listView.setDivider(null);

@@ -20,7 +20,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.ArrayList;
 
-import Datas.Datas2;
+import Bean.SortBean;
 import MyAdapters.PtrListAdapter;
 
 /**
@@ -28,7 +28,7 @@ import MyAdapters.PtrListAdapter;
  */
 
 public class MyFragment extends Fragment {
-    private Datas2.MsgBean.CategoryBean data;
+    private SortBean.MsgBean.CategoryBean data;
     private PullToRefreshListView ptrListView;
     private PtrListAdapter adapter;
     public static int width,height;
@@ -46,7 +46,7 @@ public class MyFragment extends Fragment {
 
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void change(Datas2.MsgBean.CategoryBean data){
+    public void change(SortBean.MsgBean.CategoryBean data){
         this.data=data;
         //adapter.notifyDataSetChanged();
     }
@@ -64,7 +64,7 @@ public class MyFragment extends Fragment {
         }
         ListView listView=ptrListView.getRefreshableView();
         listView.addHeaderView(iv);
-        adapter=new PtrListAdapter((ArrayList<Datas2.MsgBean.CategoryBean.List2Bean>) data.getList2());
+        adapter=new PtrListAdapter((ArrayList<SortBean.MsgBean.CategoryBean.List2Bean>) data.getList2());
         ptrListView.setAdapter(adapter);
         onClick();
         return view;
@@ -76,11 +76,18 @@ public class MyFragment extends Fragment {
         ptrListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
             @Override
             public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
-
+                System.out.println("--ssss111");
+                adapter.notifyDataSetChanged();
+                System.out.println("--ssss");
+                ptrListView.onRefreshComplete();
+                System.out.println("--ssss222");
             }
             @Override
             public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
-
+                adapter.notifyDataSetChanged();
+                System.out.println("--ssss");
+                ptrListView.onRefreshComplete();
+                System.out.println("--ssss222");
             }
         });
         //点击跳转

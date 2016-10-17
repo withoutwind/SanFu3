@@ -1,8 +1,8 @@
 package com.example.administrator.aishangsanfu;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 import com.alibaba.fastjson.JSON;
 
@@ -19,21 +19,20 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-        inData();
         init();
+        inData();
 
     }
 
 
     private void inData() {
-
         new Thread( ){
             @Override
             public void run() {
                 String json = HttpUtil.loadJSON(homeStr);
                 HomeBean hb = JSON.parseObject(json,HomeBean.class);
                 indexBeanList = hb.getMsg().getIndex();
-                System.out.println("---sss"+indexBeanList);
+
 
 
             }
@@ -46,7 +45,7 @@ public class Splash extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(7000);
+                    Thread.sleep(5000);
                     UIUtils.getHandler().post(new Runnable() {
                         @Override
                         public void run() {

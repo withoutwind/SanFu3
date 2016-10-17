@@ -11,7 +11,7 @@ import com.example.administrator.aishangsanfu.R;
 
 import java.util.ArrayList;
 
-import Datas.Datas2;
+import Bean.SortBean;
 import Fragment.CategoryFragment;
 
 /**
@@ -19,10 +19,10 @@ import Fragment.CategoryFragment;
  */
 
 public class SortMyAdapter extends BaseAdapter {
-    private ArrayList<Datas2.MsgBean.CategoryBean> datas;
+    private ArrayList<SortBean.MsgBean.CategoryBean> datas;
     public static int mPosition;
 
-    public SortMyAdapter(ArrayList<Datas2.MsgBean.CategoryBean> datas){
+    public SortMyAdapter(ArrayList<SortBean.MsgBean.CategoryBean> datas){
         this.datas = datas;
     }
 
