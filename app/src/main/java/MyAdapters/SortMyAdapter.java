@@ -44,7 +44,7 @@ public class SortMyAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder vh=null;
-        if (convertView!=null){
+        if (convertView==null){
             vh=new ViewHolder();
             convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.listview_item, null);
             vh.tv = (TextView) convertView.findViewById(R.id.tv);
@@ -59,6 +59,7 @@ public class SortMyAdapter extends BaseAdapter {
             vh.tv.setTextColor(Color.parseColor("#ff0033"));
         } else {
             convertView.setBackgroundColor(Color.parseColor("#f4f4f4"));
+            vh.tv.setTextColor(Color.parseColor("#000000"));
         }
         return convertView;
     }

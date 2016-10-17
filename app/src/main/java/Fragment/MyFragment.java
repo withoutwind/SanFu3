@@ -64,11 +64,11 @@ public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.myfragment,null);
         TextView tv=new TextView(getActivity());
-
+        tv.setTextSize(20);
         ptrListView= (PullToRefreshListView) view.findViewById(R.id.pulltolist);
         ImageView iv=new ImageView(getActivity());
         try {
-            tv.setText("已经到底了");
+            tv.setText("        已经到底了");
             Picasso.with(getContext()).load(data.getImg()).resize(width,height).centerCrop().into(iv);
         } catch (Exception e) {
             e.printStackTrace();

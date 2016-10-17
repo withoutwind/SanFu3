@@ -37,4 +37,5 @@ dependencies {
     compile files('libs/eventbus-3.0.0.jar')
     compile(name: 'xutils', ext: 'aar')
     compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile project(':libzxing')
 }
