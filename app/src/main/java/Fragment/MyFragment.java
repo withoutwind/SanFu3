@@ -1,7 +1,6 @@
 package Fragment;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
@@ -14,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.administrator.aishangsanfu.Main2Activity;
+import com.example.administrator.aishangsanfu.SortjumpActivity;
 import com.example.administrator.aishangsanfu.R;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -126,7 +125,7 @@ public class MyFragment extends Fragment {
         ptrListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent it=new Intent(getActivity(), Main2Activity.class);
+                Intent it=new Intent(getActivity(), SortjumpActivity.class);
                 startActivity(it);
             }
         });
