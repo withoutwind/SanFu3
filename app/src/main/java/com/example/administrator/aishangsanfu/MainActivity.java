@@ -1,5 +1,6 @@
 package com.example.administrator.aishangsanfu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -63,6 +64,17 @@ public class MainActivity extends AppCompatActivity{
     }
     public void  change(BaseFragment f ){
         getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,f).commit();
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(resultCode==RESULT_OK){
+            Bundle bundle = data.getExtras();
+            String result = bundle.getString("result");
+            Intent it=new Intent(this,QRcodeActivity.class);
+            it.putExtra("valus",result);
+            startActivity(it);
+        }
     }
 
 

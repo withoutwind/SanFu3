@@ -1,5 +1,6 @@
 package Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -7,12 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.example.administrator.aishangsanfu.QRcodeActivity;
 import com.example.administrator.aishangsanfu.R;
+import com.xys.libzxing.zxing.activity.CaptureActivity;
 
 import org.greenrobot.eventbus.EventBus;
 import org.xutils.common.Callback;
@@ -25,6 +30,7 @@ import Bean.SortBean;
 import MyAdapters.SortMyAdapter;
 
 import static Utils.Constans.sortdatas;
+import static android.app.Activity.RESULT_OK;
 
 /**
  * Created by Administrator on 2016/10/12.
@@ -37,6 +43,8 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
     private MyFragment myFragment;
     public static int mPosition;
     private View view;
+    private Button bt;
+    private TextView tv ;
 
 
     @Override
@@ -49,6 +57,20 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.sortfragment,null);
+        bt= (Button) view.findViewById(R.id.button);
+        tv= (TextView) view.findViewById(R.id.tobaText);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(getActivity(), CaptureActivity.class), 0);
+            }
+        });
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
         //initDatas();
         if (sortdatas!=null){
             initView();
@@ -88,4 +110,5 @@ public class CategoryFragment extends BaseFragment implements AdapterView.OnItem
         getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, myFragment).commit();
 
     }
+
 }
