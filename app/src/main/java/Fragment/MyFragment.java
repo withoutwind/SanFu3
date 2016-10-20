@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.administrator.aishangsanfu.ProductDetailsActivity;
 import com.example.administrator.aishangsanfu.SortjumpActivity;
 import com.example.administrator.aishangsanfu.R;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
@@ -38,7 +39,7 @@ public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
     private SortBean.MsgBean.CategoryBean data;
     private PullToRefreshListView ptrListView;
     private PtrListAdapter adapter;
-    public static int width,height;
+    public static int width,screenWidth;
     Handler handler=new Handler();
 
 
@@ -48,10 +49,8 @@ public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        width=getActivity().getWindowManager().getDefaultDisplay().getWidth()*18/23;
-        height=width*2/5;
-
-
+        screenWidth=getActivity().getWindowManager().getDefaultDisplay().getWidth();
+        width=screenWidth*18/23;
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void change(SortBean.MsgBean.CategoryBean data){
@@ -69,7 +68,7 @@ public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
         ImageView iv=new ImageView(getActivity());
         try {
             tv.setText("        已经到底了");
-            Picasso.with(getContext()).load(data.getImg()).resize(width,height).centerCrop().into(iv);
+            Picasso.with(getContext()).load(data.getImg()).resize(width,width*2/5).centerCrop().into(iv);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -119,7 +118,7 @@ public class MyFragment extends Fragment implements PtrListAdapter.CallBack{
     }
     @Override
     public void click(View view) {
-        Intent it=new Intent(getActivity(), SortjumpActivity.class);
+        Intent it=new Intent(getActivity(), ProductDetailsActivity.class);
         startActivity(it);
     }
 }

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 
 import com.example.administrator.aishangsanfu.ListGoodsActivity;
 import com.example.administrator.aishangsanfu.R;
+import com.example.administrator.aishangsanfu.SearchActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -57,7 +58,6 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void initurlList() {
-
         urlList.add("http://m.sanfu.com/app/display.htm?goods.goods_sn=361226&sid=a9f809a7c00111dd3abc3d49a06da2e4&source=1&key=olrfhmbvsjgbxoq&sign=2FFF494B07C913EB308D27F6E006709F");
         urlList.add("http://m.sanfu.com/app/display.htm?goods.goods_sn=753884&sid=a9f809a7c00111dd3abc3d49a06da2e4&source=1&key=rlpnovthsxxqkla&sign=CC210C96E0664424B3BD29047AFF1239");
         urlList.add("http://m.sanfu.com/app/display.htm?goods.goods_sn=360432&sid=a9f809a7c00111dd3abc3d49a06da2e4&source=1&key=idrouvrnmdkbvpg&sign=360130DB90C2D14726B432DFB171CDC5");
@@ -67,14 +67,9 @@ public class HomeFragment extends BaseFragment {
 
 
     }
-
     private void initData() {
         System.out.println("-----" + indexBeanList);
-
         if (indexBeanList != null) {
-            System.out.println("--666666666" + pathlist);
-            System.out.println("--666666666" + pathgrid1);
-            System.out.println("--666666666" + pathgrid2);
             pathgrid1.clear();
             pathgrid2.clear();
             for (int i = 0; i < 7; i++) {
@@ -82,8 +77,6 @@ public class HomeFragment extends BaseFragment {
                     for (int j = 0; j < indexBeanList.get(i).getList().size(); j++) {
                         pathgrid1.add(indexBeanList.get(i).getList().get(j).getImg());
                     }
-
-
                 } else if (i == 4) {
                     for (int j = 0; j < indexBeanList.get(i).getList().size(); j++) {
                         if (j == 0) {
@@ -93,7 +86,6 @@ public class HomeFragment extends BaseFragment {
 
                         }
                     }
-
                 } else {
 
                     for (int j = 0; j < indexBeanList.get(i).getList().size(); j++) {
@@ -135,18 +127,18 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void initGridView1() {
-        System.out.println("--11" + pathlist);
-        System.out.println("--22" + pathgrid1);
-        System.out.println("--33" + pathgrid2);
         for (int h = 0; h < pathlist.size(); h++) {
             Picasso.with(UIUtils.getContext()).load(pathlist.get(h)).into(ivs.get(h));
         }
         homead1 = new HomeGridViewAdapter1(getContext(), pathgrid1);
         noGridView1.setAdapter(homead1);
+        final String[] arr3 = new String[]{"外套","毛衣","衬衫","T恤","裤装","鞋包","睡衣","内裤"};
         noGridView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                Intent intent = new Intent(getContext(), SearchActivity.class);
+                intent.putExtra("keyword",arr3[position]);
+                startActivity(intent);
             }
         });
 
@@ -162,8 +154,6 @@ public class HomeFragment extends BaseFragment {
 
             }
         });
-
-        System.out.println("--222" + pathgrid2);
     }
 
 }

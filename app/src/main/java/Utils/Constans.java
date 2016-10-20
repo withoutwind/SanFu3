@@ -26,4 +26,13 @@ public class Constans {
         String url="http://m.sanfu.com/app/goods/sort.htm?source=1&version=1";
         return url;
     }
+    public static String getDetailsUrl(String goods_sn){
+        String url="http://m.sanfu.com/app/display.htm?goods.goods_sn="+goods_sn+"&sid=a9f809a7c00111dd3abc3d49a06da2e4&source=1";
+        return url;
+    }
+    public static String getWebview(int id){
+        String url = "http://m.sanfu.com/html/txt/" + id + ".html";
+        return url;
+    }
+
 }
